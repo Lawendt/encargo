@@ -5,7 +5,7 @@ S''
 p2
 sS'saveDestination'
 p3
-S'D:\\Projects\\Graduation\\7th Semester\\narrativas_interativas\\Waking up for life.tws'
+S'C:\\Users\\luiza\\Desktop\\Trabalhos\\2018-1\\narrativas_interativas\\Waking up for life.tws'
 p4
 sS'metadata'
 p5
@@ -27,8 +27,8 @@ I00
 sS'pos'
 p15
 (lp16
-I264
-aI85
+I265
+aI86
 asS'passage'
 p17
 (itiddlywiki
@@ -37,7 +37,7 @@ p18
 (dp20
 S'text'
 p21
-VA sala de jantar, comida servida na mesa. Mãe, pai e irmã conversando, falando bobágens, sorrindo... Essas memórias ecoam à medida que se tornam menos visíveis, uma porta abrindo revela uma mesa de trabalho, em um escritório vazio, está escuro lá fora. Um calendário à mesa. Alguém diz "Nós estamos em Maio... Meu deus, quase na metade do ano!". Então um zumbido gritante varre essas visões uma vez mais, um celular tocando. É hora de acordar. [[Levanta]].
+VA sala de jantar, comida servida na mesa. Mãe, pai e irmã conversando, falando bobágens, sorrindo... Essas memórias ecoam à medida que se tornam menos visíveis, uma porta abrindo revela uma mesa de trabalho, em um escritório vazio, está escuro lá fora. Um calendário à mesa. Alguém diz "Nós estamos em Maio... Meu deus, quase na metade do ano!". Então um zumbido gritante varre essas visões uma vez mais, um celular [[tocando|Levanta]]. É hora de acordar.
 p22
 sS'title'
 p23
@@ -51,9 +51,9 @@ p26
 ((I2018
 I5
 I1
-I17
-I5
-I58
+I23
+I50
+I48
 I1
 I121
 I0
@@ -237,7 +237,7 @@ g14
 I00
 sg15
 (lp85
-F320.0
+F321.0
 aF225.0
 asg17
 (itiddlywiki
@@ -245,7 +245,7 @@ Tiddler
 p86
 (dp87
 g21
-VPassando a mão pelo celular, o toque para de zunir. Girar para pegar o celular pesa, ficar de lado pesa, largar-se na cama novamente é reconfortante, o peso das pápebras é grande. [[Muito pesadas...]]
+VPassando a mão pelo celular, o toque para de zunir. Girar para pegar o celular pesa, ficar de lado pesa, largar-se na cama novamente é reconfortante, [[o peso|Muito pesadas...]] das pápebras é grande. 
 p88
 sg23
 VLevanta
@@ -255,9 +255,9 @@ g26
 ((I2018
 I5
 I1
-I17
-I13
-I41
+I23
+I50
+I18
 I1
 I121
 I0
@@ -284,18 +284,18 @@ tp97
 Rp98
 sbsa(dp99
 g14
-I00
+I01
 sg15
 (lp100
 F404.0
-aF85.0
+aF84.0
 asg17
 (itiddlywiki
 Tiddler
 p101
 (dp102
 g21
-VUm som reconfortante vindo da janela, pássaros com seus cantos distoantes. Com ele, a luz do sol aquece ao toque. [[Hora de acordar]].
+VUm som reconfortante vindo da janela, pássaros com seus cantos distoantes. Com ele, a luz do sol aquece ao toque. Hora de [[acordar|Hora de acordar]].
 p103
 sg23
 VMuito pesadas...
@@ -305,9 +305,9 @@ g26
 ((I2018
 I5
 I1
-I17
-I20
-I2
+I23
+I51
+I40
 I1
 I121
 I0

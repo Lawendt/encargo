@@ -381,9 +381,9 @@ g26
 ((I2018
 I5
 I2
-I0
-I36
-I49
+I1
+I29
+I24
 I2
 I122
 I0
@@ -521,7 +521,7 @@ Tiddler
 p169
 (dp170
 g21
-V\u000aA mochila é colocado embaixo da mesa, a cadeira gira em direção ao computador.<<nobr>>\u000a<<endnobr>><<if $tempo < 0>>A tela ainda nem foi ligada.  <<display Chefe>>\u000a<<else>>\u000aA tela liga. Há diversos emails com logs das ultimas ações, alguns spans e dentro deles um email destinado a todos:\u000a\u000a"Comunicado Geral - Mudanças"\u000a\u000aRespiro fundo, preciso de um [[cafe|email][$mood += 10; $coffee = true]]. Mas talvez eu [[leia antes|email][$coffee = false]].\u000a<<endif>>\u000a
+V\u000aA mochila é colocado embaixo da mesa, a cadeira gira em direção ao computador.<<nobr>>\u000a<<endnobr>><<if $tempo < 0>>A tela ainda nem foi ligada.  <<display Chefe>>\u000a<<else>>\u000aA tela liga. Há diversos emails com logs das ultimas ações, alguns spans e dentro deles um email destinado a todos:\u000a\u000a"Comunicado Geral - Mudanças"\u000a\u000aRespiro fundo, preciso de um [[cafe|email][$mood += 10; $coffee = true; $time -= 5]]. Mas talvez eu [[leia antes|email][$coffee = false]].\u000a<<endif>>\u000a
 p171
 sg23
 VChegando
@@ -532,8 +532,8 @@ g26
 I5
 I2
 I1
-I10
-I42
+I34
+I3
 I2
 I122
 I0
@@ -563,15 +563,15 @@ g14
 I00
 sg15
 (lp183
-F955.0
-aF443.0
+F797.0
+aF365.0
 asg17
 (itiddlywiki
 Tiddler
 p184
 (dp185
 g21
-VOs dois sentam, um na frente do outro\u000a\u000a"Então, 
+VOs dois sentam, um na frente do outro.\u000a\u000a"Então, imagino que você já tenha lido seu email?"\u000a\u000a<<nobr>>\u000a<<if $mood < 0>>\u000aA perna tremia\u000a<<endif>>\u000aO olhar de Lopes, o chefe esperava uma resposta:\u000a<<endnobr>>\u000a- [[Concorda|conversa2][$concorda=true]]\u000a- [[Discorda|conversa2][$concorda=false]]
 p186
 sg23
 VPrecisamos conversar
@@ -582,8 +582,8 @@ g26
 I5
 I2
 I1
-I0
-I1
+I41
+I33
 I2
 I122
 I0
@@ -652,7 +652,7 @@ g14
 I00
 sg15
 (lp210
-I957
+I940
 aI229
 asg17
 (itiddlywiki
@@ -702,15 +702,15 @@ g14
 I00
 sg15
 (lp225
-F1185.0
-aF56.0
+F1095.0
+aF59.0
 asg17
 (itiddlywiki
 Tiddler
 p226
 (dp227
 g21
-V<<if $coffee>>\u000a<<$cofee = false>>\u000aO café quente aquece as mãos e o peito. Agora sim o email é aberto.\u000a<<endif>>\u000a\u000a"Bom dia,\u000a\u000aComo todo sabem, os últimos meses estão meio turbulentos, tivemos várias complicações e acreditamos que isso deveria ser trabalhado. Isso acarretará em várias mudanças, a primeira delas é que Felix não está mais entre nós, e sua vaga de gerente será ocupada por outra pessoa logo. Esperamos que esse foi um passo dificil a ser tomado, porém necessário. Logo trarémos mais mudanças.\u000a\u000aObrigado,\u000a\u000aLopes\u000aCEO"\u000a\u000aMais um respiro longo. Uma rápida olhada para a mesa onde Felix estava e todas suas coisas já foram retiradas. Mas bem, o que um mero funcionario deveria [[pensar sobre isso|Ao trabalho]]?.
+V<<$email = true>>\u000a<<if $coffee>>\u000a<<$cofee = false>>\u000aO café quente aquece as mãos e o peito. Agora sim o email é aberto.\u000a<<endif>>\u000a\u000a"Bom dia,\u000a\u000aComo todo sabem, os últimos meses estão meio turbulentos, tivemos várias complicações e acreditamos que isso deveria ser trabalhado. Isso acarretará em várias mudanças, a primeira delas é que Felix não está mais entre nós, e sua vaga de gerente será ocupada por outra pessoa logo. Esperamos que esse foi um passo dificil a ser tomado, porém necessário. Logo trarémos mais mudanças.\u000a\u000aObrigado,\u000a\u000aLopes\u000aCEO"\u000a\u000aMais um respiro longo. Uma rápida olhada para a mesa onde Felix estava e todas suas coisas já foram retiradas. Mas bem, o que um mero funcionario deveria [[pensar sobre isso|Ao trabalho]]?.
 p228
 sg23
 Vemail
@@ -721,8 +721,8 @@ g26
 I5
 I2
 I1
-I22
-I7
+I34
+I41
 I2
 I122
 I0
@@ -752,8 +752,8 @@ g14
 I00
 sg15
 (lp240
-F1129.0
-aF228.0
+F1244.0
+aF64.0
 asg17
 (itiddlywiki
 Tiddler
@@ -797,10 +797,96 @@ tp250
 (dp251
 tp252
 Rp253
+sbsa(dp254
+g14
+I00
+sg15
+(lp255
+F941.0
+aF364.0
+asg17
+(itiddlywiki
+Tiddler
+p256
+(dp257
+g21
+V\u000a<<nobr>>\u000a<<if $concorda>>\u000aA cabeça concorda com a fala. \u000a<br>\u000aLopes olha para baixo por um tempo e para cima de novo.\u000a<br>\u000a"Não foi facil, vou te dizer...\u000a<<else>>\u000a"Se atrasou de novo então? Tem que cuidar teus horários. Mas então, Felix não estava fazendo um bom trabalho e acabou sendo demitido. \u000a<<endif>>\u000a<<endnobr>>\u000aMas agora a vaga dele está em aberto. Já estamos procurando por alguém por fora, mas está dificil de achar alguém. Por conta disso,conversei com o resto do pessoal  para vermos como vamos fazer isso. Eles pensam, e eu concordo, que você seria a melhor pessoa para ter essa posição por enquanto. Acredito muito na tua capacidade e acho que você vai se dar muito bem nisso. E [[então?]]"\u000a\u000a
+p258
+sg23
+Vconversa2
+p259
+sg25
+g26
+((I2018
+I5
+I2
+I1
+I49
+I2
+I2
+I122
+I0
+tp260
+(dp261
+tp262
+Rp263
+sg31
+(lp264
+sg33
+g26
+((I2018
+I5
+I2
+I1
+I41
+I59
+I2
+I122
+I0
+tp265
+(dp266
+tp267
+Rp268
+sbsa(dp269
+g14
+I00
+sg15
+(lp270
+F1090.0
+aF365.0
+asg17
+(itiddlywiki
+Tiddler
+p271
+(dp272
+g21
+g84
+sg23
+Ventão?
+p273
+sg25
+g26
+((I2018
+I5
+I2
+I1
+I49
+I8
+I2
+I122
+I0
+tp274
+(dp275
+tp276
+Rp277
+sg31
+(lp278
+sg33
+g277
 sbsasS'scale'
-p254
+p279
 I1
 sS'snapping'
-p255
+p280
 I00
 ss.

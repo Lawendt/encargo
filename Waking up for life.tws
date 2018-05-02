@@ -5,7 +5,7 @@ S''
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\luiza\\Desktop\\Trabalhos\\2018-1\\narrativas_interativas\\Waking up for life.tws'
+S'D:\\Projects\\Graduation\\7th Semester\\narrativas_interativas\\Waking up for life.tws'
 p4
 sS'metadata'
 p5
@@ -660,7 +660,7 @@ Tiddler
 p211
 (dp212
 g21
-VO chefé chega na mesa\u000a\u000a"Precisamos que conversar"\u000a\u000aO coração já começa a subir, essas palavras nunca antecedem algo bom. \u000a[[Acompanho os passos dele|Precisamos conversar]].
+VO chefé chega na mesa\u000a\u000a"Precisamos conversar"\u000a\u000aO coração já começa a subir, essas palavras nunca antecedem algo bom. \u000a[[Acompanho os passos dele|Precisamos conversar]].
 p213
 sg23
 VChefe
@@ -671,8 +671,8 @@ g26
 I5
 I2
 I1
-I2
-I5
+I42
+I50
 I2
 I122
 I0
@@ -760,7 +760,7 @@ Tiddler
 p241
 (dp242
 g21
-VNada. Um mero funcionario que não tem nem 2 mês não é pago para pensar sobre isso.\u000a\u000aFoco no computador. Começa a trabalhar. <<display Chefe>>\u000a\u000a\u000a
+VNada. Um mero funcionario que não tem nem 2 meses na empresa não é pago para pensar sobre isso.\u000a\u000aFoco no computador. Começa a trabalhar. <<display Chefe>>\u000a\u000a\u000a
 p243
 sg23
 VAo trabalho
@@ -771,8 +771,8 @@ g26
 I5
 I2
 I1
-I23
-I30
+I42
+I21
 I2
 I122
 I0

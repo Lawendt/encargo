@@ -185,29 +185,29 @@ g14
 I00
 sg15
 (lp69
-I151
-aI18
+F332.25
+aF20.5
 asg17
 (itiddlywiki
 Tiddler
 p70
 (dp71
 g21
-V/* Your story will use the CSS in this passage to style the page.\u000aGive this passage more tags, and it will only affect passages with those tags.\u000aExample selectors: */\u000a\u000a#sidebar li a {\u000a	/* This affects the entire page */\u000a	color: #AAA;\u000a}\u000a#sidebar li  {\u000a	/* This affects the entire page */\u000a	color: #555;\u000a}\u000a#sidebar #credits:hover  {\u000a	/* This affects the entire page */\u000a	color: #555;\u000a}\u000a.passage {\u000a	/* This only affects passages */\u000a	font-size: 180%;\u000a	max-width: 80%;\u000a	padding-left: 10%;\u000a\u000a}\u000a.passage a {\u000a	/* This affects passage links */\u000a	\u000a	\u000a}\u000a.passage a:hover {\u000a	/* This affects links while the cursor is over them */\u000a	\u000a	\u000a}
+V/* Your story will use the CSS in this passage to style the page.\u000aGive this passage more tags, and it will only affect passages with those tags.\u000aExample selectors: */\u000a\u000a#sidebar li a {\u000a	/* This affects the entire page */\u000a	color: #AAA;\u000a}\u000a#sidebar li  {\u000a	/* This affects the entire page */\u000a	color: #555;\u000a}\u000a#sidebar #credits:hover  {\u000a	/* This affects the entire page */\u000a	color: #555;\u000a}\u000a.passage {\u000a	/* This only affects passages */\u000a	font-size: 180%;\u000a	max-width: 80%;\u000a	padding-left: 10%;\u000a\u000a}\u000a.passage a {\u000a	/* This affects passage links */\u000a	\u000a	\u000a}\u000a.passage a:hover {\u000a	/* This affects links while the cursor is over them */\u000a}\u000a\u000a.revision-span-in {\u000a	opacity: 0;\u000a}\u000a.revision-span:not(.revision-span-out) {\u000a	transition: 1s; -webkit-transition: 1s;\u000a}\u000a.revision-span-out {\u000a	position:absolute;\u000a	opacity: 0;\u000a}\u000a\u000a
 p72
 sg23
-VUntitled Stylesheet 1
+VBase Stylesheet
 p73
 sg25
 g26
 ((I2018
 I5
-I16
-I12
-I53
-I18
+I23
+I0
+I31
+I6
 I2
-I136
+I143
 I0
 tp74
 (dp75
@@ -237,20 +237,39 @@ g14
 I00
 sg15
 (lp85
-I14
-aI18
+F155.25
+aF10.5
 asg17
 (itiddlywiki
 Tiddler
 p86
 (dp87
 g21
-V
+Vversion.extensions.cyclinglinkMacro={major:3,minor:3,revision:0};\u000amacros.cyclinglink={handler:function(a,b,c){var rl="cyclingLink";\u000afunction toggleText(w){w.classList.remove("cyclingLinkInit");\u000aw.classList.toggle(rl+"Enabled");w.classList.toggle(rl+"Disabled");\u000aw.style.display=((w.style.display=="none")?"inline":"none")}switch(c[c.length-1]){case"end":var end=true;\u000ac.pop();break;case"out":var out=true;c.pop();break}var v="";if(c.length&&c[0][0]=="$"){v=c[0].slice(1);\u000ac.shift()}var h=state.history[0].variables;if(out&&h[v]===""){return\u000a}var l=Wikifier.createInternalLink(a,null);l.className="internalLink cyclingLink";\u000al.setAttribute("data-cycle",0);for(var i=0;i<c.length;i++){var on=(i==Math.max(c.indexOf(h[v]),0));\u000avar d=insertElement(null,"span",null,"cyclingLinkInit cyclingLink"+((on)?"En":"Dis")+"abled");\u000aif(on){h[v]=c[i];l.setAttribute("data-cycle",i)}else{d.style.display="none"\u000a}insertText(d,c[i]);if(on&&end&&i==c.length-1){l.parentNode.replaceChild(d,l)\u000a}else{l.appendChild(d)}}l.onclick=function(){var t=this.childNodes;\u000avar u=this.getAttribute("data-cycle")-0;var m=t.length;toggleText(t[u]);\u000au=(u+1);if(!(out&&u==m)){u%=m;if(v){h[v]=c[u]}}else{h[v]=""}if((end||out)&&u==m-(end?1:0)){if(end){var n=this.removeChild(t[u]);\u000an.className=rl+"End";n.style.display="inline";this.parentNode.replaceChild(n,this)\u000a}else{this.parentNode.removeChild(this);return}return}toggleText(t[u]);\u000athis.setAttribute("data-cycle",u)}}};
 p88
 sg23
-S'Untitled Script 1'
+VCycling Macro
 p89
 sg25
+g26
+((I2018
+I5
+I23
+I0
+I27
+I56
+I2
+I143
+I0
+tp90
+(dp91
+tp92
+Rp93
+sg31
+(lp94
+Vscript
+p95
+asg33
 g26
 ((I2018
 I4
@@ -261,34 +280,28 @@ I53
 I0
 I113
 I0
-tp90
-(dp91
-tp92
-Rp93
-sg31
-(lp94
-S'script'
-p95
-asg33
-g93
-sbsa(dp96
+tp96
+(dp97
+tp98
+Rp99
+sbsa(dp100
 g14
 I00
 sg15
-(lp97
+(lp101
 F320.0
 aF231.0
 asg17
 (itiddlywiki
 Tiddler
-p98
-(dp99
+p102
+(dp103
 g21
 VPassando a mão pelo celular, o toque para de zunir. Girar para pegar o celular pesa, ficar de lado pesa, largar-se na cama novamente é reconfortante, [[o peso|Muito pesadas...]] das pálpebras é grande. 
-p100
+p104
 sg23
 VLevanta
-p101
+p105
 sg25
 g26
 ((I2018
@@ -300,12 +313,12 @@ I55
 I2
 I136
 I0
-tp102
-(dp103
-tp104
-Rp105
+tp106
+(dp107
+tp108
+Rp109
 sg31
-(lp106
+(lp110
 sg33
 g26
 ((I2018
@@ -317,28 +330,28 @@ I3
 I1
 I121
 I0
-tp107
-(dp108
-tp109
-Rp110
-sbsa(dp111
+tp111
+(dp112
+tp113
+Rp114
+sbsa(dp115
 g14
 I00
 sg15
-(lp112
+(lp116
 F473.0
 aF231.0
 asg17
 (itiddlywiki
 Tiddler
-p113
-(dp114
+p117
+(dp118
 g21
 VUm som reconfortante vindo da janela, pássaros com seus cantos distoantes. Com ele, a luz do sol aquece ao toque. [[Hora de acordar]].
-p115
+p119
 sg23
 VMuito pesadas...
-p116
+p120
 sg25
 g26
 ((I2018
@@ -350,12 +363,12 @@ I2
 I1
 I121
 I0
-tp117
-(dp118
-tp119
-Rp120
+tp121
+(dp122
+tp123
+Rp124
 sg31
-(lp121
+(lp125
 sg33
 g26
 ((I2018
@@ -367,28 +380,28 @@ I48
 I1
 I121
 I0
-tp122
-(dp123
-tp124
-Rp125
-sbsa(dp126
+tp126
+(dp127
+tp128
+Rp129
+sbsa(dp130
 g14
 I00
 sg15
-(lp127
+(lp131
 F629.0
 aF231.0
 asg17
 (itiddlywiki
 Tiddler
-p128
-(dp129
+p132
+(dp133
 g21
 VAo se levantar o horário do relogio passa em vulto. Já se passou meia hora desde que o celular tocou. O corpo vai correndo para a cozinha. Olha para a mesa com restos da noite passada e pensa:\u000a[[Dá tempo de um café?|Café da manhã][$mood += 10; $time -= 20]] ou\u000a[[Vou correndo?|Correndo][$mood -= 10]]\u000a\u000a
-p130
+p134
 sg23
 VHora de acordar
-p131
+p135
 sg25
 g26
 ((I2018
@@ -400,12 +413,12 @@ I11
 I2
 I136
 I0
-tp132
-(dp133
-tp134
-Rp135
+tp136
+(dp137
+tp138
+Rp139
 sg31
-(lp136
+(lp140
 sg33
 g26
 ((I2018
@@ -417,28 +430,28 @@ I22
 I1
 I121
 I0
-tp137
-(dp138
-tp139
-Rp140
-sbsa(dp141
+tp141
+(dp142
+tp143
+Rp144
+sbsa(dp145
 g14
 I00
 sg15
-(lp142
+(lp146
 F797.0
 aF231.0
 asg17
 (itiddlywiki
 Tiddler
-p143
-(dp144
+p147
+(dp148
 g21
 VAs roupas que estavam jogadas no chão agora estão vestidas, o tênis é colocado enquanto anda em direção a porta, e o cinto é apertado já fechando-a. Só se espera que dessa vez o [[transito|Chegando]] esteja bom.
-p145
+p149
 sg23
 VCorrendo
-p146
+p150
 sg25
 g26
 ((I2018
@@ -450,12 +463,12 @@ I1
 I2
 I136
 I0
-tp147
-(dp148
-tp149
-Rp150
+tp151
+(dp152
+tp153
+Rp154
 sg31
-(lp151
+(lp155
 sg33
 g26
 ((I2018
@@ -467,28 +480,28 @@ I44
 I2
 I122
 I0
-tp152
-(dp153
-tp154
-Rp155
-sbsa(dp156
+tp156
+(dp157
+tp158
+Rp159
+sbsa(dp160
 g14
 I00
 sg15
-(lp157
+(lp161
 F724.0
 aF20.0
 asg17
 (itiddlywiki
 Tiddler
-p158
-(dp159
+p162
+(dp163
 g21
 VAlgumas mordidas no pão deixam migalhas sobre o chão que logo são comidas pelo gato que passa por ali. O café quente aquece o peito junto ao coração, que começa a bater um pouco mais forte quando vê que já está na hora de [[correr|Correndo]].
-p160
+p164
 sg23
 VCafé da manhã
-p161
+p165
 sg25
 g26
 ((I2018
@@ -500,12 +513,12 @@ I29
 I2
 I122
 I0
-tp162
-(dp163
-tp164
-Rp165
+tp166
+(dp167
+tp168
+Rp169
 sg31
-(lp166
+(lp170
 sg33
 g26
 ((I2018
@@ -517,28 +530,28 @@ I6
 I2
 I122
 I0
-tp167
-(dp168
-tp169
-Rp170
-sbsa(dp171
+tp171
+(dp172
+tp173
+Rp174
+sbsa(dp175
 g14
 I00
 sg15
-(lp172
+(lp176
 I949
 aI54
 asg17
 (itiddlywiki
 Tiddler
-p173
-(dp174
+p177
+(dp178
 g21
 V\u000aA mochila é colocado embaixo da mesa, a cadeira gira em direção ao computador.<<nobr>>\u000a<<endnobr>><<if $time < 0>> A tela ainda nem foi ligada.  <<display Chefe>>\u000a<<else>>\u000aA tela liga. Há diversos emails com logs das ultimas ações, alguns spans e dentro deles um email destinado a todos:\u000a\u000a"Comunicado Geral - Mudanças"\u000a\u000aRespiro fundo, preciso de um [[cafe|email][$mood += 10; $coffee = true; $time -= 5]]. Mas talvez eu [[leia antes|email][$coffee = false]].\u000a<<endif>>\u000a
-p175
+p179
 sg23
 VChegando
-p176
+p180
 sg25
 g26
 ((I2018
@@ -550,12 +563,12 @@ I24
 I2
 I136
 I0
-tp177
-(dp178
-tp179
-Rp180
+tp181
+(dp182
+tp183
+Rp184
 sg31
-(lp181
+(lp185
 sg33
 g26
 ((I2018
@@ -567,28 +580,28 @@ I22
 I2
 I122
 I0
-tp182
-(dp183
-tp184
-Rp185
-sbsa(dp186
+tp186
+(dp187
+tp188
+Rp189
+sbsa(dp190
 g14
 I00
 sg15
-(lp187
+(lp191
 F801.0
 aF364.0
 asg17
 (itiddlywiki
 Tiddler
-p188
-(dp189
+p192
+(dp193
 g21
 VOs dois sentam, um na frente do outro.\u000a\u000a"Então, imagino que você já tenha lido seu email?"\u000a\u000a<<nobr>>\u000a<<if $mood < 0>>\u000aA perna tremia\u000a<<endif>>\u000aO olhar de Lopes, o chefe esperava uma resposta:\u000a<<endnobr>>\u000a- [[Concorda|conversa2][$concorda=true]]\u000a- [[Discorda|conversa2][$concorda=false]]
-p190
+p194
 sg23
 VPrecisamos conversar
-p191
+p195
 sg25
 g26
 ((I2018
@@ -600,12 +613,12 @@ I33
 I2
 I122
 I0
-tp192
-(dp193
-tp194
-Rp195
+tp196
+(dp197
+tp198
+Rp199
 sg31
-(lp196
+(lp200
 sg33
 g26
 ((I2018
@@ -617,28 +630,28 @@ I25
 I2
 I122
 I0
-tp197
-(dp198
-tp199
-Rp200
-sbsa(dp201
+tp201
+(dp202
+tp203
+Rp204
+sbsa(dp205
 g14
 I00
 sg15
-(lp202
+(lp206
 F16.0
 aF432.0
 asg17
 (itiddlywiki
 Tiddler
-p203
-(dp204
+p207
+(dp208
 g21
 Vdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIcAAABcCAYAAABEHqbmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAbrQAAG60BIeRSlQAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4yMfEgaZUAAAPHSURBVHhe7Z3rTtwwFIR5/wdqBaW0/dFy24JQq6o3yqWwy0L7DLRZTRZvdrLYiZOc2PNJn9Rs7OPjsYWEimBLCCGEEEIIIYQQQgjRkMP3+49/5w+1Hn04eMRQQfj6+QvNjYkpdmFNh4pSWcLyaCLK2eFhNqeNthXlk4XtOYYobwPWYEyLy4elRg/bXxdiuWFhjXUplh0dbC9dimWHhTXWh1jeNKzvvkQLw3D965I21bdoxxTFd2Ks1yFES/3AGrAg2hsc1psV0WJc/tzd08UsipZ7h/Vi1U+nZ+1zYoXHIrbQOWxtq348mjze3UyXzzeX181yKibjn5RyAcui1c5ga1qy+IqPVinv9t52lxFryJrz21n0ANg6FkW7/cOasSzabg2rbV203j1scVcMMxsi2guG1bIg2lvA3pfeT++6uyRswTevXm9ckM2xINrzhtWwINqr5Xj/MHhOMG0Ku41ZEu09C5trQbQ3ftjmLIj2amFzLIj20oFt0oJobw02dmjRWrqwTQ8tWlvCxgwtWksftvmhRWu6GENj5X90XbdfvKSfWxCx5QMLQa57e/Vbl0NyEVdesCDkuogrP1gYclVElR8sDPkkYsoTFoh8EjHlCwtFZvpdShUWjNRXjSUsnNxFNIKFk7OIRZSwkHIUcQgXFlSOIg5RhYWVk4hB1MFCS11sXfhyOjmhQaYktirawIIds9iWiAULeYzubu/ocsSGBT1GsR0RExb0GMV2REyqIU+vb1aeLcr6XmxGxIeF7H5mSbSny9EXdSG7n1sQbS2o+1xE5rmQ3YMYQrSxhs8Y0QLfgN1xfYrlKe6vWvr57bsuSEx8D6HAHdu3aIHiO04E4htsdZz73IWLRf9Tfa6DzRUtCAmUjXPnxxTll7DPGHXzRQNCwqwbV9aI4d7O7sY18FiL7zjhQRFk3R/uKYOuitcrsHFNRLkV2Pu6sQWb3olncMMuxSsv6n75KqsbIsq0gtUtxGsRSvmzHXhsRfVQfMX0VsSqIzqieui+YrpIGXbwvqKESBV26L6ihEgVdui+ooRIEXbgIaKMSBF24CGijEgRduAhooxIEXbgIaKMSBF24KGilEgJdtBNRDmREuygm4hyIiXYQTcR5URKsINuIsqJVGCHXBVDg8aKBGAHXBVDdTlyo+6A3X+7sDGui0Fi/LDDfZjNN16OyeHx8vPJwdHK3NLFQDFuqofq/n3VTYfsvit+7NCtsWmeGAmxD9StdXV+oQsyZmJdCpeLH+fLC3J2cqoLIoQQQgghhBBCCCGEEELkxNbWP3ztVj4dkrC4AAAAAElFTkSuQmCC
-p205
+p209
 sg23
 Vbanner
-p206
+p210
 sg25
 g26
 ((I2018
@@ -650,34 +663,34 @@ I53
 I2
 I122
 I0
-tp207
-(dp208
-tp209
-Rp210
+tp211
+(dp212
+tp213
+Rp214
 sg31
-(lp211
+(lp215
 S'Twine.image'
-p212
+p216
 asg33
-g210
-sbsa(dp213
+g214
+sbsa(dp217
 g14
 I00
 sg15
-(lp214
+(lp218
 I940
 aI229
 asg17
 (itiddlywiki
 Tiddler
-p215
-(dp216
+p219
+(dp220
 g21
 VO chefé chega na mesa:\u000a\u000a"Precisamos que conversar"\u000a\u000aO coração já começa a subir, essas palavras nunca antecedem algo bom. \u000a[[Acompanho os passos dele|Precisamos conversar]].
-p217
+p221
 sg23
 VChefe
-p218
+p222
 sg25
 g26
 ((I2018
@@ -689,12 +702,12 @@ I48
 I2
 I136
 I0
-tp219
-(dp220
-tp221
-Rp222
+tp223
+(dp224
+tp225
+Rp226
 sg31
-(lp223
+(lp227
 sg33
 g26
 ((I2018
@@ -706,28 +719,28 @@ I35
 I2
 I122
 I0
-tp224
-(dp225
-tp226
-Rp227
-sbsa(dp228
+tp228
+(dp229
+tp230
+Rp231
+sbsa(dp232
 g14
 I00
 sg15
-(lp229
+(lp233
 F1094.0
 aF56.0
 asg17
 (itiddlywiki
 Tiddler
-p230
-(dp231
+p234
+(dp235
 g21
 V<<$email = true>>\u000a<<if $coffee>>\u000a<<$cofee = false>>\u000aO café quente aquece as mãos e o peito. Agora sim o email é aberto.\u000a<<endif>>\u000a\u000a"Bom dia,\u000a\u000aComo todo sabem, os últimos meses estão meio turbulentos, tivemos várias complicações e acreditamos que isso deveria ser trabalhado. Isso acarretará em várias mudanças, a primeira delas é que Felix não está mais entre nós, e sua vaga de gerente será ocupada por outra pessoa logo. Esperamos que esse foi um passo dificil a ser tomado, porém necessário. Logo trarémos mais mudanças.\u000a\u000aObrigado,\u000a\u000aLopes\u000aCEO"\u000a\u000aMais um respiro longo. Uma rápida olhada para a mesa onde Felix estava e todas suas coisas já foram retiradas. Mas bem, o que um mero funcionario deveria [[pensar sobre isso|Ao trabalho]]?.
-p232
+p236
 sg23
 Vemail
-p233
+p237
 sg25
 g26
 ((I2018
@@ -739,12 +752,12 @@ I41
 I2
 I122
 I0
-tp234
-(dp235
-tp236
-Rp237
+tp238
+(dp239
+tp240
+Rp241
 sg31
-(lp238
+(lp242
 sg33
 g26
 ((I2018
@@ -756,28 +769,28 @@ I14
 I2
 I122
 I0
-tp239
-(dp240
-tp241
-Rp242
-sbsa(dp243
+tp243
+(dp244
+tp245
+Rp246
+sbsa(dp247
 g14
 I00
 sg15
-(lp244
+(lp248
 F1244.0
 aF64.0
 asg17
 (itiddlywiki
 Tiddler
-p245
-(dp246
+p249
+(dp250
 g21
 VNada. Um mero funcionario que não tem nem 2 mês não é pago para pensar sobre isso.\u000a\u000aFoco no computador. Começa a trabalhar. <<display Chefe>>\u000a\u000a\u000a
-p247
+p251
 sg23
 VAo trabalho
-p248
+p252
 sg25
 g26
 ((I2018
@@ -789,12 +802,12 @@ I30
 I2
 I122
 I0
-tp249
-(dp250
-tp251
-Rp252
+tp253
+(dp254
+tp255
+Rp256
 sg31
-(lp253
+(lp257
 sg33
 g26
 ((I2018
@@ -806,28 +819,28 @@ I42
 I2
 I122
 I0
-tp254
-(dp255
-tp256
-Rp257
-sbsa(dp258
+tp258
+(dp259
+tp260
+Rp261
+sbsa(dp262
 g14
 I00
 sg15
-(lp259
+(lp263
 F942.0
 aF364.0
 asg17
 (itiddlywiki
 Tiddler
-p260
-(dp261
+p264
+(dp265
 g21
 V\u000a<<nobr>>\u000a<<if $concorda>>\u000aA cabeça concorda com a fala. \u000a<br>\u000aLopes olha para baixo por um tempo e para cima de novo.\u000a<br>\u000a"Não foi facil, vou te dizer...\u000a<<else>>\u000a"Se atrasou de novo então? Tem que cuidar teus horários. Mas então, Felix não estava atendendo as expectativas e acabou sendo desligado. \u000a<<endif>>\u000a<<endnobr>>\u000aMas agora a vaga dele está em aberto. Já estamos procurando por alguém por fora, mas está dificil de achar alguém. Por conta disso, conversei com o resto do pessoal  para vermos como vamos fazer isso. Eles pensam, e eu concordo, que você seria a melhor pessoa para ter essa posição por enquanto. Acredito muito na tua capacidade e acho que você vai se dar muito bem nisso. E [[então?]]"\u000a\u000a
-p262
+p266
 sg23
 Vconversa2
-p263
+p267
 sg25
 g26
 ((I2018
@@ -839,12 +852,12 @@ I26
 I2
 I136
 I0
-tp264
-(dp265
-tp266
-Rp267
+tp268
+(dp269
+tp270
+Rp271
 sg31
-(lp268
+(lp272
 sg33
 g26
 ((I2018
@@ -856,45 +869,45 @@ I59
 I2
 I122
 I0
-tp269
-(dp270
-tp271
-Rp272
-sbsa(dp273
+tp273
+(dp274
+tp275
+Rp276
+sbsa(dp277
 g14
 I00
 sg15
-(lp274
+(lp278
 F1089.0
 aF365.0
 asg17
 (itiddlywiki
 Tiddler
-p275
-(dp276
+p279
+(dp280
 g21
 V//monologo do personagem singificando a recusa\u000a"E então?" a pergunta ecoa na mente distante e vazia, sem achar respostas.\u000a<<if $mood < 0>>\u000aA perna tremia.\u000a<<endif>>\u000a\u000a<<if $mood > 0 >>\u000a[[Obrigado pela confiança. Mas não sei se sou a melhor escolha. Não há ninguém mais capacitado? | não sei]]\u000a<<endif>>\u000a\u000a[[NÃO! Quer dizer... não sei. Não confio muito que eu vá atingir as expectativas. | não]]\u000a
-p277
+p281
 sg23
 Ventão?
-p278
+p282
 sg25
 g26
 ((I2018
 I5
-I16
-I12
-I39
-I48
-I2
-I136
+I23
 I0
-tp279
-(dp280
-tp281
-Rp282
+I49
+I1
+I2
+I143
+I0
+tp283
+(dp284
+tp285
+Rp286
 sg31
-(lp283
+(lp287
 sg33
 g26
 ((I2018
@@ -906,28 +919,28 @@ I8
 I2
 I122
 I0
-tp284
-(dp285
-tp286
-Rp287
-sbsa(dp288
+tp288
+(dp289
+tp290
+Rp291
+sbsa(dp292
 g14
 I00
 sg15
-(lp289
+(lp293
 F100.0
 aF575.0
 asg17
 (itiddlywiki
 Tiddler
-p290
-(dp291
+p294
+(dp295
 g21
 VLopes -> chefe\u000aFelix -> ex-funcionario
-p292
+p296
 sg23
 VNomes
-p293
+p297
 sg25
 g26
 ((I2018
@@ -939,14 +952,14 @@ I6
 I2
 I136
 I0
-tp294
-(dp295
-tp296
-Rp297
+tp298
+(dp299
+tp300
+Rp301
 sg31
-(lp298
+(lp302
 Vannotation
-p299
+p303
 asg33
 g26
 ((I2018
@@ -958,27 +971,28 @@ I26
 I2
 I136
 I0
-tp300
-(dp301
-tp302
-Rp303
-sbsa(dp304
+tp304
+(dp305
+tp306
+Rp307
+sbsa(dp308
 g14
 I00
 sg15
-(lp305
+(lp309
 F1228.0
 aF368.0
 asg17
 (itiddlywiki
 Tiddler
-p306
-(dp307
+p310
+(dp311
 g21
-g88
+V
+p312
 sg23
 V não
-p308
+p313
 sg25
 g26
 ((I2018
@@ -990,31 +1004,31 @@ I10
 I2
 I136
 I0
-tp309
-(dp310
-tp311
-Rp312
+tp314
+(dp315
+tp316
+Rp317
 sg31
-(lp313
+(lp318
 sg33
-g312
-sbsa(dp314
+g317
+sbsa(dp319
 g14
 I00
 sg15
-(lp315
+(lp320
 F1223.0
 aF224.0
 asg17
 (itiddlywiki
 Tiddler
-p316
-(dp317
+p321
+(dp322
 g21
-g88
+g312
 sg23
 V não sei
-p318
+p323
 sg25
 g26
 ((I2018
@@ -1026,18 +1040,70 @@ I10
 I2
 I136
 I0
-tp319
-(dp320
-tp321
-Rp322
+tp324
+(dp325
+tp326
+Rp327
 sg31
-(lp323
+(lp328
 sg33
-g322
+g327
+sbsa(dp329
+g14
+I00
+sg15
+(lp330
+F6.25
+aF11.25
+asg17
+(itiddlywiki
+Tiddler
+p331
+(dp332
+g21
+V(function(){version.extensions.replaceMacrosCombined={major:1,minor:1,revision:7};var nullobj={handler:function(){}};function showVer(n,notrans){if(!n){return;}n.innerHTML="";\u000anew Wikifier(n,n.tweecode);n.setAttribute("data-enabled","true");n.style.display="inline";n.classList.remove("revision-span-out");if(!notrans){n.classList.add("revision-span-in");\u000aif(n.timeout){clearTimeout(n.timeout);}n.timeout=setTimeout(function(){n.classList.remove("revision-span-in");n=null;},20);}}function hideVer(n,notrans){if(!n){return;\u000a}n.setAttribute("data-enabled","false");n.classList.remove("revision-span-in");if(n.timeout){clearTimeout(n.timeout);}if(!notrans){n.classList.add("revision-span-out");\u000an.timeout=setTimeout(function(){if(n.getAttribute("data-enabled")=="false"){n.classList.remove("revision-span-out");n.style.display="none";n.innerHTML="";}n=null;\u000a},1000);}else{n.style.display="none";n.innerHTML="";n=null;}}function tagcontents(b,starttags,desttags,endtags,k){var l=0,c="",tg,a,i;function tagfound(i,e,endtag){for(var j=0;\u000aj<e.length;j++){if(a.indexOf("<<"+e[j]+(endtag?">>":""),i)==i){return e[j];}}}a=b.source.slice(k);for(i=0;i<a.length;i++){if(tg=tagfound(i,starttags)){l++;}else{if((tg=tagfound(i,desttags,true))&&l==0){b.nextMatch=k+i+tg.length+4;\u000areturn[c,tg];}else{if(tg=tagfound(i,endtags,true)){l--;if(l<0){return null;}}}}c+=a.charAt(i);}return null;}var begintags=[];var endtags=[];function revisionSpanHandler(g,e,f,b){var k=b.source.indexOf(">>",b.matchStart)+2,vsns=[],vtype=e,flen=f.length,becomes,c,cn,m,h,vsn;\u000afunction mkspan(vtype){h=insertElement(m,"span",null,"revision-span "+vtype);h.setAttribute("data-enabled",false);h.style.display="none";h.tweecode="";return h;}if(this.shorthand&&flen){while(f.length>0){vsns.push([f.shift(),(this.flavour=="insert"?"gains":"becomes")]);\u000a}}else{if(this.flavour=="insert"||(this.flavour=="continue"&&this.trigger=="time")){vsns.push(["","becomes"]);}}if(this.flavour=="continue"&&flen){b.nextMatch=k+b.source.slice(k).length;\u000avsns.push([b.source.slice(k),vtype]);}else{becomes=["becomes","gains"];c=tagcontents(b,begintags,becomes.concat(endtags),endtags,k);if(c&&endtags.indexOf(c[1])==-1){while(c){vsns.push(c);\u000ac=tagcontents(b,begintags,becomes,endtags,b.nextMatch);}c=tagcontents(b,begintags,["end"+e],endtags,b.nextMatch);}if(!c){throwError(g,"can't find matching end"+e);\u000areturn;}vsns.push(c);if(this.flavour=="continue"){k=b.nextMatch;b.nextMatch=k+b.source.slice(k).length;vsns.push([b.source.slice(k),""]);}}if(this.flavour=="remove"){vsns.push(["","becomes"]);\u000a}cn=0;m=insertElement(g,"span",null,e);m.setAttribute("data-flavour",this.flavour);h=mkspan("initial");vsn=vsns.shift();h.tweecode=vsn[0];showVer(h,true);while(vsns.length>0){if(vsn){vtype=vsn[1];\u000a}vsn=vsns.shift();h=mkspan(vtype);h.tweecode=vsn[0];}if(typeof this.setup=="function"){this.setup(m,g,f);}}function quantity(m){return(m.children.length-1)+(m.getAttribute("data-flavour")=="remove");\u000a}function revisionSetup(m,g,f){m.className+=" "+f[0].replace(" ","_");}function keySetup(m,g,f){var key=f[0];m.setEventListener("keydown",function l(e){var done=!revise("revise",m);\u000aif(done){m.removeEventListener("keydown",l);}});}function timeSetup(m,g,f){function cssTimeUnit(s){if(typeof s=="string"){if(s.slice(-2).toLowerCase()=="ms"){return Number(s.slice(0,-2))||0;\u000a}else{if(s.slice(-1).toLowerCase()=="s"){return Number(s.slice(0,-1))*1000||0;}}}throwError(g,s+" isn't a CSS time unit");return 0;}var tm=cssTimeUnit(f[0]);var s=state.history[0].passage.title;\u000asetTimeout(function timefn(){if(state.history[0].passage.title==s){var done=!revise("revise",m);if(!done){setTimeout(timefn,tm);}}},tm);}function hoverSetup(m){var fn,noMouseEnter=(document.head.onmouseenter!==null),m1=m.children[0],m2=m.children[1],gains=m2.className.indexOf("gains")>-1;\u000aif(!m1||!m2){return;}m1.onmouseenter=function(e){var efp=document.elementFromPoint(e.clientX,e.clientY);while(efp&&efp!==this){efp=efp.parentNode;}if(!efp){return;\u000a}if(this.getAttribute("data-enabled")!="false"){revise("revise",this.parentNode);}};m2.onmouseleave=function(e){var efp=document.elementFromPoint(e.clientX,e.clientY);\u000awhile(efp&&efp!==this){efp=efp.parentNode;}if(efp){return;}if(this.getAttribute("data-enabled")!="false"){revise("revert",this.parentNode);}};if(gains){m1.onmouseleave=m2.onmouseleave;\u000a}if(noMouseEnter){fn=function(n){return function(e){if(!event.relatedTarget||(event.relatedTarget!=this&&!(this.compareDocumentPosition(event.relatedTarget)&Node.DOCUMENT_POSITION_CONTAINED_BY))){this[n]();\u000a}};};m1.onmouseover=fn("onmouseenter");m2.onmouseout=fn("onmouseleave");if(gains){m1.onmouseout=m2.onmouseout;}}m=null;}function mouseSetup(m){var evt=(document.head.onmouseenter===null?"onmouseenter":"onmouseover");\u000am[evt]=function(){var done=!revise("revise",this);if(done){this[evt]=null;}};m=null;}function linkSetup(m,g,f){var l=Wikifier.createInternalLink(),p=m.parentNode;\u000al.className="internalLink replaceLink";p.insertBefore(l,m);l.insertBefore(m,null);l.onclick=function(){var p,done=false;if(m&&m.parentNode==this){done=!revise("revise",m);\u000ascrollWindowTo(m);}if(done){this.parentNode.insertBefore(m,this);this.parentNode.removeChild(this);}};l=null;}function visitedSetup(m,g,f){var i,done,shv=state.history[0].variables,os="once seen",d=(m.firstChild&&(this.flavour=="insert"?m.firstChild.nextSibling:m.firstChild).tweecode);\u000ashv[os]=shv[os]||{};if(d&&!shv[os].hasOwnProperty(d)){shv[os][d]=1;}else{for(i=shv[os][d];i>0&&!done;i--){done=!revise("revise",m,true);}if(shv[os].hasOwnProperty(d)){shv[os][d]+=1;\u000a}}}[{name:"insert",flavour:"insert",trigger:"link",setup:linkSetup},{name:"timedinsert",flavour:"insert",trigger:"time",setup:timeSetup},{name:"insertion",flavour:"insert",trigger:"revisemacro",setup:revisionSetup},{name:"later",flavour:"insert",trigger:"visited",setup:visitedSetup},{name:"keyinsert",flavour:"insert",trigger:"key",setup:keySetup},{name:"replace",flavour:"replace",trigger:"link",setup:linkSetup},{name:"timedreplace",flavour:"replace",trigger:"time",setup:timeSetup},{name:"mousereplace",flavour:"replace",trigger:"mouse",setup:mouseSetup},{name:"hoverreplace",flavour:"replace",trigger:"hover",setup:hoverSetup},{name:"revision",flavour:"replace",trigger:"revisemacro",setup:revisionSetup},{name:"keyreplace",flavour:"replace",trigger:"key",setup:keySetup},{name:"timedremove",flavour:"remove",trigger:"time",setup:timeSetup},{name:"mouseremove",flavour:"remove",trigger:"mouse",setup:mouseSetup},{name:"hoverremove",flavour:"remove",trigger:"hover",setup:hoverSetup},{name:"removal",flavour:"remove",trigger:"revisemacro",setup:revisionSetup},{name:"once",flavour:"remove",trigger:"visited",setup:visitedSetup},{name:"keyremove",flavour:"remove",trigger:"key",setup:keySetup},{name:"continue",flavour:"continue",trigger:"link",setup:linkSetup},{name:"timedcontinue",flavour:"continue",trigger:"time",setup:timeSetup},{name:"mousecontinue",flavour:"continue",trigger:"mouse",setup:mouseSetup},{name:"keycontinue",flavour:"continue",trigger:"key",setup:keySetup},{name:"cycle",flavour:"cycle",trigger:"revisemacro",setup:revisionSetup},{name:"mousecycle",flavour:"cycle",trigger:"mouse",setup:mouseSetup},{name:"timedcycle",flavour:"cycle",trigger:"time",setup:timeSetup},{name:"keycycle",flavour:"replace",trigger:"key",setup:keySetup}].forEach(function(e){e.handler=revisionSpanHandler;\u000ae.shorthand=(["link","mouse","hover"].indexOf(e.trigger)>-1);macros[e.name]=e;macros["end"+e.name]=nullobj;begintags.push(e.name);endtags.push("end"+e.name);});function insideDepartingSpan(elem){var r=elem.parentNode;\u000awhile(!r.classList.contains("passage")){if(r.classList.contains("revision-span-out")){return true;}r=r.parentNode;}}function reviseAll(rt,rname){var rall=document.querySelectorAll(".passage [data-flavour]."+rname),ret=false;\u000afor(var i=0;i<rall.length;i++){if(!insideDepartingSpan(rall[i])){ret=revise(rt,rall[i])||ret;}}return ret;}function revise(rt,r,notrans){var ind2,curr,next,ind=-1,rev=(rt=="revert"),rnd=(rt.indexOf("random")>-1),fl=r.getAttribute("data-flavour"),rc=r.childNodes,cyc=(fl=="cycle"),rcl=rc.length-1;\u000afunction doToGainerSpans(n,fn){for(var k=n-1;k>=0;k--){if(rc[k+1].classList.contains("gains")){fn(rc[k],notrans);}else{break;}}}for(var k=0;k<=rcl;k++){if(rc[k].getAttribute("data-enabled")=="true"){ind=k;\u000a}}if(rev){ind-=1;}curr=(ind>=0?rc[ind]:(cyc?rc[rcl]:null));ind2=ind;if(rnd){ind2=(ind+(Math.floor(Math.random()*rcl)))%rcl;}next=((ind2<rcl)?rc[ind2+1]:(cyc?rc[0]:null));\u000avar docurr=(rev?showVer:hideVer);var donext=(rev?hideVer:showVer);var currfn=function(){if(!(next&&next.classList.contains("gains"))||rnd){docurr(curr,notrans);doToGainerSpans(ind,docurr,notrans);\u000a}};var nextfn=function(){donext(next,notrans);if(rnd){doToGainerSpans(ind2+1,donext,notrans);}};if(!rev){currfn();nextfn();}else{nextfn();currfn();}return(cyc?true:(rev?(ind>0):(ind2<rcl-1)));\u000a}macros.revert=macros.revise=macros.randomise=macros.randomize={handler:function(a,b,c){var l,rev,rname;function disableLink(l){l.style.display="none";}function enableLink(l){l.style.display="inline";\u000a}function updateLink(l){if(l.className.indexOf("random")>-1){enableLink(l);return;}var rall=document.querySelectorAll(".passage [data-flavour]."+rname),cannext,canprev,i,ind,r,fl;\u000afor(i=0;i<rall.length;i++){r=rall[i],fl=r.getAttribute("data-flavour");if(insideDepartingSpan(r)){continue;}if(fl=="cycle"){cannext=canprev=true;}else{if(r.firstChild.getAttribute("data-enabled")==!1+""){canprev=true;\u000a}if(r.lastChild.getAttribute("data-enabled")==!1+""){cannext=true;}}}var can=(l.classList.contains("revert")?canprev:cannext);(can?enableLink:disableLink)(l);}function toggleText(w){w.classList.toggle(rl+"Enabled");\u000aw.classList.toggle(rl+"Disabled");w.style.display=((w.style.display=="none")?"inline":"none");}var rl="reviseLink";if(c.length<2){throwError(a,b+" macro needs 2 parameters");\u000areturn;}rname=c.shift().replace(" ","_");l=Wikifier.createInternalLink(a,null);l.className="internalLink "+rl+" "+rl+"_"+rname+" "+b;var v="";var end=false;var out=false;\u000aif(c.length>1&&c[0][0]=="$"){v=c[0].slice(1);c.shift();}switch(c[c.length-1]){case"end":end=true;c.pop();break;case"out":out=true;c.pop();break;}var h=state.history[0].variables;\u000afor(var i=0;i<c.length;i++){var on=(i==Math.max(c.indexOf(h[v]),0));var d=insertElement(null,"span",null,rl+((on)?"En":"Dis")+"abled");if(on){h[v]=c[i];l.setAttribute("data-cycle",i);\u000a}else{d.style.display="none";}insertText(d,c[i]);l.appendChild(d);}l.onclick=function(){reviseAll(b,rname);var t=this.childNodes,u=this.getAttribute("data-cycle")-0,m=t.length,n,lall,i;\u000aif((end||out)&&u>=m-(end?2:1)){if(end){n=this.removeChild(t[u+1]||t[u]);n.className=rl+"End";n.style.display="inline";this.parentNode.replaceChild(n,this);}else{this.parentNode.removeChild(this);\u000areturn;}}else{toggleText(t[u]);u=(u+1)%m;if(v){h[v]=c[u];}toggleText(t[u]);this.setAttribute("data-cycle",u);}lall=document.getElementsByClassName(rl+"_"+rname);\u000afor(i=0;i<lall.length;i++){updateLink(lall[i]);}};disableLink(l);setTimeout((function(l){return function(){updateLink(l);};}(l)),1);l=null;}};macros.mouserevise=macros.hoverrevise={handler:function(a,b,c,d){var endtags=["end"+b],evt=(window.onmouseenter===null?"onmouseenter":"onmouseover"),t=tagcontents(d,[b],endtags,endtags,d.source.indexOf(">>",d.matchStart)+2);\u000aif(t){var rname=c[0].replace(" ","_"),h=insertElement(a,"span",null,"hoverrevise hoverrevise_"+rname),f=function(){var done=!reviseAll("revise",rname);if(b!="hoverrevise"&&done){this[evt]=null;\u000a}};new Wikifier(h,t[0]);if(b=="hoverrevise"){h.onmouseover=f;h.onmouseout=function(){reviseAll("revert",rname);};}else{h[evt]=f;}h=null;}}};macros.instantrevise={handler:function(a,b,c,d){reviseAll("revise",c[0].replace(" ","_"));\u000a}};macros.endmouserevise=nullobj;macros.endhoverrevise=nullobj;}());
+p333
+sg23
+VReplace Macro
+p334
+sg25
+g26
+((I2018
+I5
+I23
+I0
+I27
+I42
+I2
+I143
+I0
+tp335
+(dp336
+tp337
+Rp338
+sg31
+(lp339
+Vscript
+p340
+asg33
+g26
+((I2018
+I5
+I23
+I0
+I27
+I12
+I2
+I143
+I0
+tp341
+(dp342
+tp343
+Rp344
 sbsasS'scale'
-p324
-I1
+p345
+F0.8
 sS'snapping'
-p325
+p346
 I00
 ss.

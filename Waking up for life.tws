@@ -1231,7 +1231,7 @@ tp383
 Rp384
 sbsa(dp385
 g14
-I00
+I01
 sg15
 (lp386
 F1702.0
@@ -1242,7 +1242,7 @@ Tiddler
 p387
 (dp388
 g21
-VPois bem,\u000a\u000atu acompanhou o trabalho do Felix de perto, mas vamos conversas sobre suas tarefas:\u000a<span class="blurred">\u000aLorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tellus augue, efficitur id dapibus id, gravida nec sem. Morbi elementum aliquam euismod. Donec placerat, arcu non accumsan tincidunt, metus leo imperdiet diam, fermentum congue quam magna non elit. Phasellus nec ipsum metus. Nullam eleifend nibh lorem, sed vestibulum neque placerat sed. Fusce fringilla nisl vitae aliquet commodo. \u000a\u000aProin sollicitudin fringilla felis non aliquam. Pellentesque tristique nec est non iaculis. Aenean mollis ullamcorper rhoncus. Aenean nec sapien aliquam, dignissim eros in, venenatis dolor. Sed condimentum justo libero, nec convallis nisl pretium sit amet. Suspendisse elementum laoreet bibendum. Nunc pellentesque sagittis dignissim. Suspendisse nec massa ipsum. Integer aliquet sit amet metus malesuada accumsan.\u000a\u000a[[...]]\u000a</span>
+VPois bem,\u000a\u000atu acompanhou o trabalho do Felix de perto, mas vamos conversas sobre suas tarefas:\u000a<span class="blurred">\u000aLorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tellus augue, efficitur id dapibus id, gravida nec sem. Morbi elementum aliquam euismod. Donec placerat, arcu non accumsan tincidunt, metus leo imperdiet diam, fermentum congue quam magna non elit. Phasellus nec ipsum metus. Nullam eleifend nibh lorem, sed vestibulum neque placerat sed. Fusce fringilla nisl vitae aliquet commodo. \u000a\u000aProin sollicitudin fringilla felis non aliquam. Pellentesque tristique nec est non iaculis. Aenean mollis ullamcorper rhoncus. Aenean nec sapien aliquam, dignissim eros in, venenatis dolor. Sed condimentum justo libero, nec convallis nisl pretium sit amet. Suspendisse elementum laoreet bibendum. Nunc pellentesque sagittis dignissim. Suspendisse nec massa ipsum. Integer aliquet sit amet metus malesuada accumsan.\u000a\u000a</span>\u000a[[...]]
 p389
 sg23
 VAssentir com a cabeça
@@ -1253,8 +1253,8 @@ g26
 I5
 I27
 I1
-I33
-I26
+I35
+I55
 I6
 I147
 I0
@@ -1370,7 +1370,7 @@ sg33
 g425
 sbsa(dp427
 g14
-I01
+I00
 sg15
 (lp428
 F1836.0

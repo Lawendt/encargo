@@ -1,7 +1,7 @@
 (dp0
 S'buildDestination'
 p1
-S''
+VC:\u005cUsers\u005c1570 LITE\u005cDesktop\u005cWaking up for life.html
 p2
 sS'saveDestination'
 p3
@@ -37,7 +37,7 @@ p18
 (dp20
 S'text'
 p21
-V<<set $time = 0; $mood = 0; $email = 0>>\u000aA sala de jantar, comida servida na mesa. Mãe, pai e irmã conversando, falando bobágens, sorrindo... Essas memórias ecoam à medida que se tornam menos visíveis, uma porta abrindo revela uma mesa de trabalho, em um escritório vazio, está escuro lá fora. Um calendário à mesa. Alguém diz "Nós estamos em Maio... Meu deus, quase na metade do ano!". Então um zumbido gritante varre essas visões uma vez mais, um celular [[tocando|Levanta]]. É hora de acordar.
+V<<set $time = 0; $mood = 0; $email = 0>>\u000aA sala de jantar, comida servida na mesa. A família conversando, falando bobágens, sorrindo... Essas memórias ecoam à medida que se tornam menos visíveis, uma porta abrindo revela uma mesa de trabalho, em um escritório vazio, está escuro lá fora. Um calendário à mesa. Alguém diz "Nós estamos em Maio... Meu deus, quase na metade do ano!". Então um zumbido gritante varre essas visões uma vez mais, um celular [[tocando|Levanta]]. É hora de acordar.
 p22
 sS'title'
 p23
@@ -49,13 +49,13 @@ ctime
 struct_time
 p26
 ((I2018
+I6
+I3
+I16
+I9
 I5
-I23
-I1
-I30
-I7
-I2
-I143
+I6
+I154
 I0
 tp27
 (dp28
@@ -297,7 +297,7 @@ Tiddler
 p102
 (dp103
 g21
-VPassando a mão pelo celular, o toque para de zunir. Girar para pegar o celular pesa, ficar de lado pesa, largar-se na cama novamente é reconfortante, [[o peso|Muito pesadas...]] das pálpebras é grande. 
+V Girar para pegar o celular pesa. Passando a mão pelo celular, o toque para de zunir. O corpo largado na cama novamente é reconfortante, e [[o peso|Muito pesadas...]] das pálpebras é grande, muito grande...
 p104
 sg23
 VLevanta
@@ -305,13 +305,13 @@ p105
 sg25
 g26
 ((I2018
-I5
+I6
+I3
 I16
-I12
-I54
-I55
-I2
-I136
+I10
+I42
+I6
+I154
 I0
 tp106
 (dp107
@@ -347,7 +347,7 @@ Tiddler
 p117
 (dp118
 g21
-VUm som reconfortante vindo da janela, pássaros com seus cantos distoantes. Com ele, a luz do sol aquece ao toque. [[Hora de acordar]].
+VUm som reconfortante vindo da janela, pássaros com seus cantos distoantes. Com ele, a luz do sol aquece o rosto ao toque. [[Hora de acordar]].
 p119
 sg23
 VMuito pesadas...
@@ -355,13 +355,13 @@ p120
 sg25
 g26
 ((I2018
-I5
-I1
-I23
-I56
-I2
-I1
-I121
+I6
+I3
+I16
+I11
+I6
+I6
+I154
 I0
 tp121
 (dp122
@@ -547,7 +547,7 @@ Tiddler
 p177
 (dp178
 g21
-V\u000aA mochila é colocado embaixo da mesa, a cadeira gira em direção ao computador.<<nobr>>\u000a<<endnobr>><<if $time < 0>> A tela ainda nem foi ligada.  <<display Chefe>>\u000a<<else>>\u000aA tela liga. Há diversos emails com logs das ultimas ações, alguns spans e entre eles um email destinado a todos:\u000a\u000a"Comunicado Geral - Mudanças"\u000a\u000aRespiro fundo, preciso de um [[cafe|email][$mood += 10; $coffee = true; $time -= 5]]. Mas talvez eu [[leia antes|email][$coffee = false]].\u000a<<endif>>\u000a
+V\u000aA mochila é colocado embaixo da mesa, a cadeira gira em direção ao computador.<<nobr>>\u000a<<endnobr>><<if $time < 0>> A tela ainda nem foi ligada.  <<display Chefe>>\u000a<<else>>\u000aA tela liga. Há diversos emails com logs das ultimas ações, alguns spans e entre eles um email destinado a todos:\u000a\u000a"Comunicado Geral - Mudanças"\u000a\u000aRespirando fundo, preciso de um [[cafe|email][$mood += 10; $coffee = true; $time -= 5]]. Mas talvez eu [[leia antes|email][$coffee = false]].\u000a<<endif>>\u000a
 p179
 sg23
 VChegando
@@ -555,13 +555,13 @@ p180
 sg25
 g26
 ((I2018
-I5
-I23
-I12
-I32
-I37
-I2
-I143
+I6
+I3
+I16
+I13
+I30
+I6
+I154
 I0
 tp181
 (dp182
@@ -686,7 +686,7 @@ Tiddler
 p219
 (dp220
 g21
-VO chefé chega na mesa:\u000a\u000a"Precisamos que conversar"\u000a\u000aO coração já começa a subir, essas palavras nunca antecedem algo bom. \u000a[[Acompanho os passos dele|Precisamos conversar]].
+VO chefé chega na mesa:\u000a\u000a"Precisamos conversar"\u000a\u000aO coração já começa a subir, essas palavras nunca antecedem algo bom. \u000a[[Acompanho os passos dele|Precisamos conversar]].
 p221
 sg23
 VChefe
@@ -694,13 +694,13 @@ p222
 sg25
 g26
 ((I2018
-I5
+I6
+I3
 I16
-I12
-I57
-I48
-I2
-I136
+I15
+I37
+I6
+I154
 I0
 tp223
 (dp224
@@ -736,7 +736,7 @@ Tiddler
 p234
 (dp235
 g21
-V<<nobr>>\u000a<<set $email = true>>\u000a<<if $coffee>>\u000a<<set $cofee = false>>\u000aO café quente aquece as mãos e o peito. Agora sim o email é aberto.\u000a\u000a<<endif>>\u000a<<endnobr>>\u000a"Bom dia,\u000a\u000aComo todo sabem, os últimos meses estão meio turbulentos, tivemos várias complicações e acreditamos que isso deveria ser trabalhado. Isso acarretará em várias mudanças, a primeira delas é que Felix não está mais entre nós, e sua vaga de gerente será ocupada por outra pessoa logo. Esse foi um passo dificil a ser tomado, porém necessário. Logo trarémos mais mudanças.\u000a\u000aObrigado,\u000a\u000aLopes\u000aCEO"\u000a\u000aMais um respiro longo. Uma rápida olhada para a mesa onde Felix estava e todas suas coisas já foram retiradas. Mas bem, o que um mero funcionario deveria [[pensar sobre isso|Ao trabalho]]?.
+V<<nobr>>\u000a<<set $email = true>>\u000a<<if $coffee>>\u000a<<set $cofee = false>>\u000aO café quente aquece as mãos e o peito. Agora sim o email é aberto.\u000a\u000a<<endif>>\u000a<<endnobr>>\u000a"Bom dia,\u000a\u000aComo todo sabem, os últimos meses estão meio turbulentos, tivemos várias complicações e acreditamos que isso deveria ser trabalhado. Isso acarretará em várias mudanças, a primeira delas é que Felix não está mais entre nós, e sua vaga de gerente será ocupada por outra pessoa logo. Esse foi um passo dificil a ser tomado, porém necessário. Logo traremos mais mudanças.\u000a\u000aObrigado,\u000a\u000aLopes\u000aCEO"\u000a\u000aMais um respiro longo. Uma rápida olhada para a mesa onde Felix estava e todas suas coisas já foram retiradas. Mas bem, o que um mero funcionario deveria [[pensar sobre isso|Ao trabalho]]?.
 p236
 sg23
 Vemail
@@ -744,13 +744,13 @@ p237
 sg25
 g26
 ((I2018
-I5
-I23
-I12
-I38
+I6
+I3
+I16
 I14
-I2
-I143
+I46
+I6
+I154
 I0
 tp238
 (dp239
@@ -1242,7 +1242,7 @@ Tiddler
 p387
 (dp388
 g21
-VPois bem,\u000a\u000atu acompanhou o trabalho do Felix de perto, mas vamos conversas sobre suas tarefas:\u000a<span class="blurred">\u000aLorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tellus augue, efficitur id dapibus id, gravida nec sem. Morbi elementum aliquam euismod. Donec placerat, arcu non accumsan tincidunt, metus leo imperdiet diam, fermentum congue quam magna non elit. Phasellus nec ipsum metus. Nullam eleifend nibh lorem, sed vestibulum neque placerat sed. Fusce fringilla nisl vitae aliquet commodo. \u000a\u000aProin sollicitudin fringilla felis non aliquam. Pellentesque tristique nec est non iaculis. Aenean mollis ullamcorper rhoncus. Aenean nec sapien aliquam, dignissim eros in, venenatis dolor. Sed condimentum justo libero, nec convallis nisl pretium sit amet. Suspendisse elementum laoreet bibendum. Nunc pellentesque sagittis dignissim. Suspendisse nec massa ipsum. Integer aliquet sit amet metus malesuada accumsan.\u000a\u000a</span>\u000a[[...]]
+VPois bem,\u000a\u000atu acompanhou o trabalho do Felix de perto, mas vamos conversar sobre suas tarefas:\u000a<span class="blurred">\u000aLorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tellus augue, efficitur id dapibus id, gravida nec sem. Morbi elementum aliquam euismod. Donec placerat, arcu non accumsan tincidunt, metus leo imperdiet diam, fermentum congue quam magna non elit. Phasellus nec ipsum metus. Nullam eleifend nibh lorem, sed vestibulum neque placerat sed. Fusce fringilla nisl vitae aliquet commodo. \u000a\u000aProin sollicitudin fringilla felis non aliquam. Pellentesque tristique nec est non iaculis. Aenean mollis ullamcorper rhoncus. Aenean nec sapien aliquam, dignissim eros in, venenatis dolor. Sed condimentum justo libero, nec convallis nisl pretium sit amet. Suspendisse elementum laoreet bibendum. Nunc pellentesque sagittis dignissim. Suspendisse nec massa ipsum. Integer aliquet sit amet metus malesuada accumsan.\u000a\u000a</span>\u000a[[...]]
 p389
 sg23
 VAssentir com a cabeça
@@ -1251,12 +1251,12 @@ sg25
 g26
 ((I2018
 I6
-I1
+I3
 I16
-I50
-I50
-I4
-I152
+I19
+I3
+I6
+I154
 I0
 tp391
 (dp392
@@ -1486,8 +1486,8 @@ g14
 I00
 sg15
 (lp462
-F639.0
-aF783.0
+F643.0
+aF776.0
 asg17
 (itiddlywiki
 Tiddler
@@ -1536,8 +1536,8 @@ g14
 I00
 sg15
 (lp477
-F639.0
-aF915.0
+F641.0
+aF910.0
 asg17
 (itiddlywiki
 Tiddler
@@ -1633,11 +1633,11 @@ tp504
 Rp505
 sbsa(dp506
 g14
-I00
+I01
 sg15
 (lp507
-F1416.0
-aF841.0
+F1414.0
+aF819.0
 asg17
 (itiddlywiki
 Tiddler
@@ -1686,8 +1686,8 @@ g14
 I00
 sg15
 (lp522
-F866.0
-aF838.0
+F1140.0
+aF864.0
 asg17
 (itiddlywiki
 Tiddler
@@ -1887,14 +1887,14 @@ I00
 sg15
 (lp582
 F1414.0
-aF969.0
+aF972.0
 asg17
 (itiddlywiki
 Tiddler
 p583
 (dp584
 g21
-V"De forma diferente..." - o novo tema da semana, e então do mês. Não deixando de se tornar um humor para tudo aquilo que não estivesse de acordo: "Talvez... Fazendo de formar diferente? Hahaha!". A verdade é a expressão era tão abstrata que servia para quase todas as ocasiões. E a triste verdade, era que Lopes não enviava um email, nem marcava uma reunião construtiva, e as coisas foram [[continuando|chapter3]]...
+V"De forma diferente..." - o novo tema da semana, e então do mês. Não deixando de se tornar um humor para tudo aquilo que não estivesse de acordo: "Talvez... Fazendo de formar diferente? Hahaha!".\u000a\u000aA verdade é que a expressão era tão abstrata que servia para quase todas as ocasiões. E a triste verdade era que Lopes não enviava um email, nem marcava uma reunião construtiva, e as coisas foram [[continuando...|chapter3]]
 p585
 sg23
 Vfazer diferente
@@ -1904,9 +1904,9 @@ g26
 ((I2018
 I6
 I3
-I15
-I57
-I57
+I16
+I22
+I53
 I6
 I154
 I0
@@ -1933,7 +1933,7 @@ tp594
 Rp595
 sbsa(dp596
 g14
-I01
+I00
 sg15
 (lp597
 F316.0
@@ -1944,7 +1944,7 @@ Tiddler
 p598
 (dp599
 g21
-V
+V-- TO BE CONTINUED --
 p600
 sg23
 Vchapter3
@@ -1954,9 +1954,9 @@ g26
 ((I2018
 I6
 I3
-I15
-I58
-I0
+I16
+I23
+I53
 I6
 I154
 I0
@@ -1967,11 +1967,24 @@ Rp605
 sg31
 (lp606
 sg33
-g605
+g26
+((I2018
+I6
+I3
+I15
+I58
+I0
+I6
+I154
+I0
+tp607
+(dp608
+tp609
+Rp610
 sbsasS'scale'
-p607
+p611
 F1.0
 sS'snapping'
-p608
+p612
 I00
 ss.

@@ -5,7 +5,7 @@ S''
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\luiza_000\\Desktop\\Trabalhos\\2018-1\\narrativas_interativas\\Waking up for life.tws'
+S'D:\\Projects\\Graduation\\7th Semester\\narrativas_interativas\\Waking up for life.tws'
 p4
 sS'metadata'
 p5
@@ -1250,13 +1250,13 @@ p390
 sg25
 g26
 ((I2018
-I5
-I27
-I1
-I35
-I55
 I6
-I147
+I1
+I16
+I50
+I50
+I4
+I152
 I0
 tp391
 (dp392
@@ -1333,18 +1333,18 @@ tp414
 Rp415
 sbsa(dp416
 g14
-I00
+I01
 sg15
 (lp417
-F287.0
-aF607.0
+F310.0
+aF530.0
 asg17
 (itiddlywiki
 Tiddler
 p418
 (dp419
 g21
-VOk, isso tem que acontecer.\u000a\u000aFoco. Parece que é isso que eles querem. Ou será que não? Lopes não sabe dizer. \u000a\u000aPergunta.\u000aPerguntas.\u000a\u000aResposta?\u000a\u000a\u000aNão dá para entender. Respira. Lopes? nada\u000a\u000aTalvez seja isso. A [[reunião]] foi marcadao. Será que vai ser?\u000a\u000a
+VOk, isso tem que acontecer.\u000a\u000aFoco.\u000aParece que é isso que o cliente quer.\u000aOu será que não? Lopes não sabe dizer.\u000a\u000aPergunta.\u000aPerguntas.\u000a\u000aResposta?\u000a\u000a\u000aNão dá para entender. Respira. Lopes? Nada.\u000a\u000aTalvez seja isso. A [[reunião]] foi marcada. Vai ser?\u000a\u000a
 p420
 sg23
 Vstart2
@@ -1352,13 +1352,13 @@ p421
 sg25
 g26
 ((I2018
-I5
-I31
-I14
-I50
-I37
-I3
-I151
+I6
+I1
+I17
+I34
+I33
+I4
+I152
 I0
 tp422
 (dp423
@@ -1387,14 +1387,14 @@ I00
 sg15
 (lp432
 F1837.0
-aF409.0
+aF408.0
 asg17
 (itiddlywiki
 Tiddler
 p433
 (dp434
 g21
-VMais de uma hora se passou dentro daquela sala. Cabeça zonza. \u000a\u000aApresentado para o time: conheçam seu novo <b>chefe</b>!\u000a\u000aOs amigos desejavam parabéns e a felicidade batia.\u000a\u000aFinal do dia a familia tava orgulhosa.\u000a\u000a[[Talvez de tudo certo.|start2]]
+VO relógio girando, se passou uma hora, as palavras ecoando na sala. Cabeça zonza. \u000a\u000a- Claro que terás que conhecer seu "novo" time! - Fala abrindo a porta da sala e se dirigindo a alguns rostos conhecidos.\u000a\u000a- Conheçam seu novo <b>chefe</b>!\u000a\u000aOs amigos desejaram parabéns. A felicidade batia, ou era vergonha?\u000a\u000aFinal do dia, a familia orgulhosa.\u000a\u000a[[Talvez de tudo certo.|start2]]
 p435
 sg23
 V...
@@ -1402,13 +1402,13 @@ p436
 sg25
 g26
 ((I2018
-I5
-I27
-I1
-I34
-I22
 I6
-I147
+I1
+I16
+I54
+I41
+I4
+I152
 I0
 tp437
 (dp438
@@ -1486,8 +1486,8 @@ g14
 I00
 sg15
 (lp462
-F699.0
-aF541.0
+F657.0
+aF530.0
 asg17
 (itiddlywiki
 Tiddler
@@ -1819,7 +1819,7 @@ sg33
 g559
 sbsa(dp561
 g14
-I01
+I00
 sg15
 (lp562
 F1079.0

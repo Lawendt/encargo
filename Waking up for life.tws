@@ -1633,18 +1633,18 @@ tp504
 Rp505
 sbsa(dp506
 g14
-I01
+I00
 sg15
 (lp507
-F1414.0
-aF819.0
+F1435.0
+aF897.0
 asg17
 (itiddlywiki
 Tiddler
 p508
 (dp509
 g21
-VLopes pensa por um momento.\u000a\u000a- Eu vou enviar um email, enquanto isso, tentem revisar o que já foi feito e tentem fazer as coisas [[de forma diferente...|fazer diferente]]
+VLopes pensa por um momento.\u000a\u000a- Eu vou enviar um email, enquanto isso, tentem revisar o que já foi feito e tentem fazer as coisas [[de forma diferente...|chapter 3]]
 p510
 sg23
 Voutra forma
@@ -1653,12 +1653,12 @@ sg25
 g26
 ((I2018
 I6
-I3
-I15
-I49
-I23
-I6
-I154
+I20
+I12
+I29
+I9
+I2
+I171
 I0
 tp512
 (dp513
@@ -1886,29 +1886,29 @@ g14
 I00
 sg15
 (lp582
-F1414.0
-aF972.0
+F399.0
+aF1230.0
 asg17
 (itiddlywiki
 Tiddler
 p583
 (dp584
 g21
-V"De forma diferente..." - o novo tema da semana, e então do mês. Não deixando de se tornar um humor para tudo aquilo que não estivesse de acordo: "Talvez... Fazendo de formar diferente? Hahaha!".\u000a\u000aA verdade é que a expressão era tão abstrata que servia para quase todas as ocasiões. E a triste verdade era que Lopes não enviava um email, nem marcava uma reunião construtiva, e as coisas foram [[continuando...|chapter3]]
+V"De forma diferente...", o novo tema da semana, e então do mês. Não deixando de se tornar um humor para tudo aquilo que não estivesse de acordo: "Talvez... Fazendo de forma diferente? Hahaha!".\u000a\u000aA verdade é que a expressão era tão abstrata que servia para quase todas as ocasiões. \u000a\u000aE a triste verdade era que Lopes não enviava um email\u000anem marcava uma reunião construtiva. Talvez uma [[visita a sala dele|Falar com Lopes]]? Ou talvez fazer de [[forma diferente|Descobrir sozinho]] mesmo?\u000a\u000a
 p585
 sg23
-Vfazer diferente
+Vchapter 3
 p586
 sg25
 g26
 ((I2018
 I6
-I3
-I16
-I22
-I53
-I6
-I154
+I20
+I12
+I50
+I41
+I2
+I171
 I0
 tp587
 (dp588
@@ -1936,29 +1936,29 @@ g14
 I00
 sg15
 (lp597
-F316.0
-aF973.0
+F650.0
+aF1069.0
 asg17
 (itiddlywiki
 Tiddler
 p598
 (dp599
 g21
-V-- TO BE CONTINUED --
+V//Falar com o Lopes\u000a\u000achega na sala do Lopes. Pergunta se tem um minuto. Só um minuto. Pode falar que não tá legal como tá andando o projeto. Pode falar que não tá achando util as reuniões. \u000a\u000aPode chegar numa solução junto\u000a\u000aPode não chegar não chegar em solução. Ou tu vai descobrir sozinho, ou let it be.\u000a\u000aSe ser rude com Lopes, ele te sabota. Marca reunião com cliente do nada. Tem que entregar mais "cedo". Variavel de rudeness. Não acha solução\u000a\u000aSe reclamar mais de uma vez Lopes diz que é mimi e dá desculpa pra te despachar.\u000a\u000a
 p600
 sg23
-Vchapter3
+VFalar com Lopes
 p601
 sg25
 g26
 ((I2018
 I6
-I3
-I16
-I23
-I53
-I6
-I154
+I20
+I12
+I51
+I45
+I2
+I171
 I0
 tp602
 (dp603
@@ -1970,21 +1970,123 @@ sg33
 g26
 ((I2018
 I6
-I3
-I15
-I58
-I0
-I6
-I154
+I20
+I12
+I31
+I5
+I2
+I171
 I0
 tp607
 (dp608
 tp609
 Rp610
+sbsa(dp611
+g14
+I00
+sg15
+(lp612
+F646.0
+aF1373.0
+asg17
+(itiddlywiki
+Tiddler
+p613
+(dp614
+g21
+V// Procurar uma solução\u000a\u000a//como achar?\u000aTexto com email do cliente onde que tu pode clicar em alguma coisa que pode ser a resposta. Keep it simple\u000a\u000a\u000a- apresentar a solução pro Lopes ou executar a solução sem pedir.\u000a\u000a# Se falar com Lopes antes\u000a\u000aA abordagem de Falar com Lopes faz com que ele fique mais aberto.\u000a\u000a\u000a
+p615
+sg23
+VDescobrir sozinho
+p616
+sg25
+g26
+((I2018
+I6
+I20
+I12
+I55
+I41
+I2
+I171
+I0
+tp617
+(dp618
+tp619
+Rp620
+sg31
+(lp621
+sg33
+g26
+((I2018
+I6
+I20
+I12
+I31
+I5
+I2
+I171
+I0
+tp622
+(dp623
+tp624
+Rp625
+sbsa(dp626
+g14
+I00
+sg15
+(lp627
+F1602.0
+aF1124.0
+asg17
+(itiddlywiki
+Tiddler
+p628
+(dp629
+g21
+V - Satisfação Cliente\u000a - Satisfacão Lopes\u000a - Satisfação Pessoal
+p630
+sg23
+VFinal da história
+p631
+sg25
+g26
+((I2018
+I6
+I20
+I12
+I38
+I5
+I2
+I171
+I0
+tp632
+(dp633
+tp634
+Rp635
+sg31
+(lp636
+Vannotation
+p637
+asg33
+g26
+((I2018
+I6
+I20
+I12
+I37
+I30
+I2
+I171
+I0
+tp638
+(dp639
+tp640
+Rp641
 sbsasS'scale'
-p611
+p642
 F1.0
 sS'snapping'
-p612
+p643
 I00
 ss.

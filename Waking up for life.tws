@@ -27,7 +27,7 @@ I00
 sS'pos'
 p15
 (lp16
-F279.0
+F280.25
 aF296.0
 asS'passage'
 p17
@@ -589,7 +589,7 @@ g14
 I00
 sg15
 (lp191
-F1168.75
+F1167.5
 aF431.75
 asg17
 (itiddlywiki
@@ -1437,14 +1437,14 @@ I00
 sg15
 (lp447
 F317.0
-aF779.0
+aF777.75
 asg17
 (itiddlywiki
 Tiddler
 p448
 (dp449
 g21
-V - É isto que é visualizado para a execução do projeto nesse mês.\u000a\u000aA frase mal saiou da boca e foi cortada pelo olhar confuso do cliente que respondia.\u000a\u000a - Não foi isso que eu pedi.\u000a\u000aA cabeça vira para Lopes com olhos de surpresa. [[Será que ele sabe o que fazer?|para Lopes]] O que pode ser dito? Era isso que estamos fazendo [[desde o começo|desde o comeco]] do projeto. Isso foi falado diversas vezes, será que eles [[são só estupidos?|falado diversas vezes]].\u000a
+V - É isto que é visualizado para a execução do projeto nesse mês.\u000a\u000aA frase mal saiou da boca e foi cortada pelo olhar confuso do cliente que respondia.\u000a\u000a - Não foi isso que eu pedi.\u000a\u000aA cabeça vira para Lopes com olhos de surpresa. [[Será que Ele sabe o que fazer?|para Lopes]]\u000a\u000aO que pode ser dito? \u000a\u000aEra isso que estamos fazendo desde o começo do projeto, mas ele pode [[não ter entendido|desde o comeco]]. \u000a\u000aNão... Isso foi falado diversas vezes, será que eles [[são só estupidos?|falado diversas vezes]].\u000a
 p450
 sg23
 Vreunião
@@ -1453,12 +1453,12 @@ sg25
 g26
 ((I2018
 I7
+I11
+I0
 I10
-I23
-I58
-I38
-I1
-I191
+I6
+I2
+I192
 I0
 tp452
 (dp453
@@ -1494,7 +1494,7 @@ Tiddler
 p463
 (dp464
 g21
-V<<set $agressive = false>>\u000aO eco das palavras ressoa na mente. A boca fica calada, não acha palavras para serem soadas. Lopes olha para o cliente.\u000a\u000a- Desculpa, poderia explicar melhor então o que seria?\u000a\u000a<<display resposta_cliente>>
+V<<set $agressive = 0>>\u000aO eco das palavras ressoa na mente. A boca fica calada, não acha palavras para serem soadas. Lopes olha para o cliente.\u000a\u000a- Desculpa, poderia explicar melhor então o que seria?\u000a\u000a<<display resposta_cliente>>
 p465
 sg23
 Vpara Lopes
@@ -1502,13 +1502,13 @@ p466
 sg25
 g26
 ((I2018
-I6
-I3
-I15
-I27
-I25
-I6
-I154
+I7
+I11
+I0
+I8
+I9
+I2
+I192
 I0
 tp467
 (dp468
@@ -1544,7 +1544,7 @@ Tiddler
 p478
 (dp479
 g21
-V<<set $agressive = false>>\u000aUm sentimento de angústia assume o corpo. As palavras fluem com naturalidade - Desculpa, mas desde o começo estamos fazendo assim. Poderia falar o que deveriamos ter feito?\u000a\u000aO cliente olha com incrédulo.\u000a\u000a<<display resposta_cliente>>
+V<<set $agressive = 0>>\u000aUm sentimento de angústia assume o corpo. As palavras fluem com naturalidade - Desculpa, mas desde o começo estamos fazendo assim. Poderia falar o que deveriamos ter feito?\u000a\u000aO cliente olha com incrédulo.\u000a\u000a<<display resposta_cliente>>
 p480
 sg23
 Vdesde o comeco
@@ -1553,12 +1553,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I23
-I57
-I16
-I1
-I191
+I11
+I0
+I8
+I35
+I2
+I192
 I0
 tp482
 (dp483
@@ -1594,7 +1594,7 @@ Tiddler
 p493
 (dp494
 g21
-V<<set $agressive = true>>\u000a- Como assim? Isso foi citado diversas vezes? Como só agora você diz isso?\u000a\u000aLopes olha com desaprovação diante das palavras ditas.\u000a\u000a- Isso não está de acordo com o que queremos. É inviavel, vocês teram que pensar em [[outra forma| desaprovação]] de fazer.\u000a\u000aO cliente fala saindo da sala.\u000a
+V<<set $agressive = 1>>\u000a- Como assim? Isso foi citado diversas vezes? Como só agora você diz isso?\u000a\u000aLopes olha com desaprovação diante das palavras ditas.\u000a\u000a- Isso não está de acordo com o que queremos. É inviavel, vocês teram que pensar em [[outra forma| desaprovacao]] de fazer.\u000a\u000aO cliente fala saindo da sala.\u000a
 p495
 sg23
 Vfalado diversas vezes
@@ -1602,13 +1602,13 @@ p496
 sg25
 g26
 ((I2018
-I6
-I3
-I15
-I44
-I39
-I6
-I154
+I7
+I11
+I0
+I8
+I20
+I2
+I192
 I0
 tp497
 (dp498
@@ -1747,18 +1747,18 @@ g21
 V- O que que foi isso?\u000a\u000aLopes fala zangado.\u000a\u000a- Não se fala assim com cliente. Nós não [[podemos]] nos dar o luxo de se comportar dessa maneira. [[Ok?]]
 p540
 sg23
-V desaprovação
+V desaprovacao
 p541
 sg25
 g26
 ((I2018
-I5
-I31
-I16
-I44
+I7
+I11
 I0
-I3
-I151
+I8
+I25
+I2
+I192
 I0
 tp542
 (dp543
@@ -1986,8 +1986,8 @@ g14
 I00
 sg15
 (lp612
-F436.75
-aF1489.5
+F419.25
+aF1508.25
 asg17
 (itiddlywiki
 Tiddler
@@ -2146,7 +2146,7 @@ Tiddler
 p659
 (dp660
 g21
-V- O que acha que pode ser melhorado no projeto? Não temos gente suficiente? Ou alguém está complicando?\u000a[[- Não é isso... As coisas não estão funcionando. O cliente não consegue falar o que ele está querendo, não conseguimos fazer nada sem um direcionamento.|nao funciona]]\u000a[[- Não temos um andamento há um tempo... Penso que o cliente não é claro com as definições deles, tornando as coisas mais delicadas. Talvez possamos trabalhar juntos para nos adequar melhor às propostas e tentar extrair o máximo de informações valiosas?|proposta para lopes]]
+V- O que acha que pode ser melhorado no projeto? Não temos gente suficiente? Ou alguém está complicando?\u000a\u000a[[- Não é isso... As coisas não estão funcionando. O cliente não consegue falar o que ele está querendo, não conseguimos fazer nada sem um direcionamento.|nao funciona]]\u000a\u000a[[- Não temos um andamento há um tempo... Penso que o cliente não é claro com as definições deles, tornando as coisas mais delicadas. Talvez possamos trabalhar juntos para nos adequar melhor às propostas e tentar extrair o máximo de informações valiosas?|proposta para lopes]]
 p661
 sg23
 Vandamento do projeto
@@ -2155,12 +2155,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I17
-I24
-I15
-I1
-I191
+I11
+I0
+I11
+I38
+I2
+I192
 I0
 tp663
 (dp664
@@ -2189,7 +2189,7 @@ I00
 sg15
 (lp673
 F1027.0
-aF1303.0
+aF1300.5
 asg17
 (itiddlywiki
 Tiddler
@@ -2238,7 +2238,7 @@ g14
 I00
 sg15
 (lp688
-F1417.0
+F1418.25
 aF1166.0
 asg17
 (itiddlywiki
@@ -2246,7 +2246,7 @@ Tiddler
 p689
 (dp690
 g21
-V//Dispachado (rude ou reclamão) [[sem lopes]]
+V<<if $agressive == 1>>\u000aDe novo com isso...\u000a<<endif>>\u000aOlha, se tu não está gostando do jeito que tá as coisas, então resolva. Não adianta fica falando e falando e só ficar de mimimi.\u000a\u000a<<if $agressive == 0>>\u000aEntão a não ser que você vá parar de drama e tenha [[algo melhor|proposta para lopes]] para falar, por favor, [[saia daqui|sem lopes]].\u000a<<else>>\u000aEntão por favor, [[vaza daqui|sem lopes]] porque eu tenho mais coisa para fazer do que ouvir draminha.\u000a<<endif>>\u000a\u000a<<set $agressive++>>
 p691
 sg23
 Vnao funciona
@@ -2255,12 +2255,12 @@ sg25
 g26
 ((I2018
 I7
-I10
+I11
+I0
 I17
-I31
-I29
-I1
-I191
+I59
+I2
+I192
 I0
 tp693
 (dp694
@@ -2346,7 +2346,7 @@ Tiddler
 p719
 (dp720
 g21
-V//Dispachado (rude ou reclamão) [[sem lopes]]
+V<<if $agressive == 1>>\u000aAcho que tu deve parar de reclamar do cliente e ver se o problema não é tu mesmo.\u000a<<endif>>\u000a\u000aOlha só, ficar falando picuinha do cliente não vai levar a lugar nenhum. Ou seja, tu só tá gastando meu tempo, então [[vá fazer algo útil|sem lopes]] por favor. \u000a
 p721
 sg23
 Vreclama do cliente
@@ -2355,12 +2355,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I17
-I32
+I11
 I0
-I1
-I191
+I21
+I45
+I2
+I192
 I0
 tp723
 (dp724
@@ -3485,7 +3485,7 @@ tp1060
 Rp1061
 sbsa(dp1062
 g14
-I01
+I00
 sg15
 (lp1063
 F899.5

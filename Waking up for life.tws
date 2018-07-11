@@ -5,7 +5,7 @@ VC:\u005cUsers\u005c1570 LITE\u005cDesktop\u005cWaking up for life.html
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\luiza_000\\Desktop\\Trabalhos\\2018-1\\encargo\\Waking up for life.tws'
+S'D:\\Projects\\Graduation\\7th Semester\\narrativas_interativas\\Waking up for life.tws'
 p4
 sS'metadata'
 p5
@@ -2085,7 +2085,7 @@ tp640
 Rp641
 sbsa(dp642
 g14
-I00
+I01
 sg15
 (lp643
 F701.75
@@ -2096,7 +2096,7 @@ Tiddler
 p644
 (dp645
 g21
-VBatendo na porta de Lopes, que pede para entrar.\u000a- Tem um minuto Lopes?\u000a- Só um minuto, diga...\u000a[[- Estou pensando a respeito do andamento do projeto, não tá certo assim...|andamento do projeto]]\u000a[[- As reuniões, acho que não estão seguindo um fluxo legal.|reunioes erradas]]\u000a\u000a<<set $falarComLopes = true>>
+VBatendo na porta de Lopes, que pede para entrar.\u000a- Tem um minuto Lopes?\u000a- Só um minuto, diga...\u000a[[- Estou pensando a respeito do andamento do projeto, da maneira que está indo, não está indo bem...|andamento do projeto]]\u000a[[- As reuniões, acho que não estão seguindo um fluxo legal.|reunioes erradas]]\u000a\u000a<<set $falarComLopes = true>>
 p646
 sg23
 VFalar com Lopes
@@ -2106,9 +2106,9 @@ g26
 ((I2018
 I7
 I11
-I0
-I46
-I47
+I1
+I40
+I19
 I2
 I192
 I0
@@ -2146,7 +2146,7 @@ Tiddler
 p659
 (dp660
 g21
-V- O que acha que pode ser melhorado no projeto? Não temos gente suficiente? Ou alguém está complicando?\u000a\u000a[[- Não é isso... As coisas não estão funcionando. O cliente não consegue falar o que ele está querendo, não conseguimos fazer nada sem um direcionamento.|nao funciona]]\u000a\u000a[[- Não temos um andamento há um tempo... Penso que o cliente não é claro com as definições deles, tornando as coisas mais delicadas. Talvez possamos trabalhar juntos para nos adequar melhor às propostas e tentar extrair o máximo de informações valiosas?|proposta para lopes]]
+V- O que acha que pode ser melhorado no projeto? Não temos gente suficiente? Ou alguém está complicando?\u000a\u000a\u000a[[- Não é isso... As coisas não estão funcionando. O cliente não consegue falar o que ele está querendo, não conseguimos fazer nada sem um direcionamento.|nao funciona]]\u000a\u000a[[- Não temos um andamento há um tempo... Penso que o cliente não é claro com as definições dele, tornando as coisas mais delicadas. Talvez possamos trabalhar juntos para nos adequar melhor às propostas e tentar extrair o máximo de informações valiosas?|proposta para lopes]]
 p661
 sg23
 Vandamento do projeto
@@ -2156,9 +2156,9 @@ g26
 ((I2018
 I7
 I11
-I0
-I11
-I38
+I1
+I39
+I29
 I2
 I192
 I0
@@ -2188,7 +2188,7 @@ g14
 I00
 sg15
 (lp673
-F1027.0
+F1025.75
 aF1300.5
 asg17
 (itiddlywiki
@@ -2288,15 +2288,15 @@ g14
 I00
 sg15
 (lp703
-F1414.0
-aF1040.0
+F1419.0
+aF1036.25
 asg17
 (itiddlywiki
 Tiddler
 p704
 (dp705
 g21
-V//Concorda com os termos [[lopes propoe projeto]]\u000a\u000a//Discorda (gentil ou rude) [[sem lopes]]
+V- Acho que devemos revisar atentamente todo o trabalho feito até agora. Talvez devessemos ser mais ousados na abordage e conseguir mais informações relevantes. Apresentar uma série de ideias seria legal para a próxima reunião também.\u000a\u000a- Certo. A gente precisa focar no que é importante, posso falar com o time e organizar tudo para que a gente possa definir bem os papeis de cada um. Eu proponho que a gente [[siga as definições atuais|lopes propoe projeto]], mas adicionamos alguns recursos novos. Vai ser mais trabalho, mas acho que vão gostar. Não concorda?\u000a\u000a\u000a[[- Acho que devemos optar por alguma abordagem mais ousada... Vou pesquisar algumas coisas que estava pensando e posso apresentar isso em outro momento.|sem lopes]]\u000a\u000a[[- Claro que não. O cliente foi muito claro em todas as vezes que falou, do jeito que está agora não está certo. Não podemos continuar com as mesmas propostas que antes, é um tiro no pé.|recusa proposta lopes]]
 p706
 sg23
 Vproposta para lopes
@@ -2305,12 +2305,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I20
-I44
-I43
+I11
 I1
-I191
+I39
+I23
+I2
+I192
 I0
 tp708
 (dp709
@@ -2335,7 +2335,7 @@ tp715
 Rp716
 sbsa(dp717
 g14
-I01
+I00
 sg15
 (lp718
 F1410.5
@@ -2588,15 +2588,15 @@ g14
 I00
 sg15
 (lp793
-F760.75
-aF1608.75
+F678.25
+aF1585.0
 asg17
 (itiddlywiki
 Tiddler
 p794
 (dp795
 g21
-V[[mini-game|mini-game email]]
+VUma torrencial quantidade de emails passa pelos olhos, um à um os emails são descartados sem informações úteis a respeito do projeto. A cabeça começa a girar em torno de tantas palavras. Nada construtivo surge dos emails lidos, as ideias discutidas já são foram tenadas e o cliente rejeitou grande parte disso. A visão vai ficando [[embaçada|mini-game email]] com tantas informações...
 p796
 sg23
 Vconfere email
@@ -2605,12 +2605,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I20
-I46
-I5
+I11
 I1
-I191
+I30
+I3
+I2
+I192
 I0
 tp798
 (dp799
@@ -2638,15 +2638,15 @@ g14
 I00
 sg15
 (lp808
-F625.75
-aF1763.75
+F517.0
+aF1671.25
 asg17
 (itiddlywiki
 Tiddler
 p809
 (dp810
 g21
-VNada últi veio das reuniões [[mas e os emails?|confere email]]
+VAs palavras tem um grande impácto. Algo bem enfatizado pelo meio da fala é super importante para a comunicação correta das ideias, ainda mais com projetos ou tarefas delegadas.\u000a\u000aAinda assim, revirando a mente para todas as reuniões, parece que nada encaixa. Muita coisa foi deixada em aberto logo de início, e houve falta de reuniões para alinhas o desenvolvimento do projeto... Bem, é claro que nada útil veio das reuniões [[mas e os emails?|confere email]] Certamente teve alguma coisa que passou despercebida.
 p811
 sg23
 Vconfere reunioes
@@ -2655,12 +2655,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I20
-I46
-I38
+I11
 I1
-I191
+I29
+I50
+I2
+I192
 I0
 tp813
 (dp814
@@ -2688,15 +2688,15 @@ g14
 I00
 sg15
 (lp823
-F1031.25
-aF1713.75
+F1070.0
+aF1727.5
 asg17
 (itiddlywiki
 Tiddler
 p824
 (dp825
 g21
-VFelicidade!\u000a\u000a[[apresenta para lopes]]\u000a\u000a[[fala direto com cliente]]
+V"Bom dia,\u000a\u000aSabemos que os projetos já estão em andamento há um bom tempo, os resultados estão bons, mas ainda precisamos revisar alguns pontos. Como o intuito de melhorar a experiência do produto, optamos por arriscar um design mais clean. Percebemos que os concorrentes mantém as mesmas formas há anos, mas o nosso público alvo se torna cada vez mais ligado nas novas tendências da indústria. Queremos seguir essa onda de inovação e não deixar tão rebuscado quanto era antigamente.\u000a\u000aAtenciosamente,\u000a\u000aSimone\u000aCR Empreendedorismos"\u000a\u000aÉ isso! Como esse email passou despercebido?! Mas é claro, como não definimos as coisas com base nisso? Tudo faz sentido agora, só temos que refazer o que ficou inconsistente no projeto porque já temos todo o embasamento correto.\u000a\u000aSerá que [[Lopes se interessaria|apresenta para lopes]] nisso?\u000a\u000aTalvez eu devesse [[falar direto com cliente]]...
 p826
 sg23
 Vacha solucao
@@ -2705,12 +2705,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I20
-I49
-I25
+I11
 I1
-I191
+I30
+I53
+I2
+I192
 I0
 tp828
 (dp829
@@ -2788,15 +2788,15 @@ g14
 I00
 sg15
 (lp853
-F857.5
-aF1816.25
+F688.75
+aF1772.5
 asg17
 (itiddlywiki
 Tiddler
 p854
 (dp855
 g21
-V//Email com frases soltas, selecionar qual a melhor frase ou conjunto de palavras que forme a melhor frase [[acha solucao]]
+V<span class="blurred">"Bom dia,\u000a\u000aSabemos que os projetos já estão em andamento há um bom tempo, os resultados estão bons, mas ainda precisamos revisar alguns pontos. Como o intuito de melhorar a experiência do produto, optamos por arriscar um design mais clean. Percebemos que os concorrentes mantém as mesmas formas há anos, mas o nosso público alvo se torna cada vez mais ligado nas novas tendências da indústria. Queremos seguir essa onda de inovação e não deixar tão rebuscado quanto era antigamente.\u000a\u000aAtenciosamente,\u000a\u000aSimone\u000aCR Empreendedorismos"\u000a</span>\u000a\u000a[[Foco...|email foco]]
 p856
 sg23
 Vmini-game email
@@ -2805,12 +2805,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I20
-I47
-I24
+I11
 I1
-I191
+I30
+I14
+I2
+I192
 I0
 tp858
 (dp859
@@ -2999,18 +2999,18 @@ g21
 VTem o contato do cliente, então porque não propor uma reunião para mostrar as ideias? [[reuniao de entrega]] ou [[lopes sabota]]
 p916
 sg23
-Vfala direto com cliente
+Vfalar direto com cliente
 p917
 sg25
 g26
 ((I2018
 I7
-I10
-I20
-I53
-I5
+I11
 I1
-I191
+I31
+I1
+I2
+I192
 I0
 tp918
 (dp919
@@ -3038,15 +3038,15 @@ g14
 I00
 sg15
 (lp928
-F1432.25
-aF1811.25
+F1443.5
+aF1822.5
 asg17
 (itiddlywiki
 Tiddler
 p929
 (dp930
 g21
-V[[fala direto com cliente]]\u000a\u000aou\u000a\u000a[[segue projeto do lopes]]
+V[[falar direto com cliente]]\u000a\u000aou\u000a\u000a[[segue projeto do lopes]]
 p931
 sg23
 Vlopes rejeita proposta
@@ -3055,12 +3055,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I20
-I55
-I9
+I11
 I1
-I191
+I32
+I28
+I2
+I192
 I0
 tp933
 (dp934
@@ -3533,10 +3533,110 @@ tp1073
 (dp1074
 tp1075
 Rp1076
+sbsa(dp1077
+g14
+I00
+sg15
+(lp1078
+F883.0
+aF1696.25
+asg17
+(itiddlywiki
+Tiddler
+p1079
+(dp1080
+g21
+V<span class="blurred10">"Bom dia,\u000a\u000aSabemos que os projetos já estão em andamento há um bom tempo, os resultados estão bons, mas ainda precisamos revisar alguns pontos. Como o intuito de melhorar a experiência do produto, optamos por arriscar um design mais clean. Percebemos que os concorrentes mantém as mesmas formas há anos, mas o nosso público alvo se torna cada vez mais ligado nas novas tendências da indústria. Queremos seguir essa onda de inovação e não deixar tão rebuscado quanto era antigamente.\u000a\u000aAtenciosamente,\u000a\u000aSimone\u000aCR Empreendedorismos"\u000a</span>\u000a\u000a[[Foco!|acha solucao]]
+p1081
+sg23
+Vemail foco
+p1082
+sg25
+g26
+((I2018
+I7
+I11
+I1
+I30
+I36
+I2
+I192
+I0
+tp1083
+(dp1084
+tp1085
+Rp1086
+sg31
+(lp1087
+sg33
+g26
+((I2018
+I7
+I11
+I1
+I30
+I16
+I2
+I192
+I0
+tp1088
+(dp1089
+tp1090
+Rp1091
+sbsa(dp1092
+g14
+I00
+sg15
+(lp1093
+F1222.5
+aF1172.5
+asg17
+(itiddlywiki
+Tiddler
+p1094
+(dp1095
+g21
+V- Como é que é? Primeiro vem pedir minha ajuda e agora desdenha da minha opinião dessa maneira? Aqui quem decide as coisas sou eu. Se teu ponto de vista diverge, pode se direcionar a [[porta|sem lopes]], pois faremos [[do meu jeito|lopes propoe projeto]].
+p1096
+sg23
+Vrecusa proposta lopes
+p1097
+sg25
+g26
+((I2018
+I7
+I11
+I1
+I38
+I21
+I2
+I192
+I0
+tp1098
+(dp1099
+tp1100
+Rp1101
+sg31
+(lp1102
+sg33
+g26
+((I2018
+I7
+I11
+I1
+I38
+I17
+I2
+I192
+I0
+tp1103
+(dp1104
+tp1105
+Rp1106
 sbsasS'scale'
-p1077
+p1107
 F0.8
 sS'snapping'
-p1078
+p1108
 I00
 ss.

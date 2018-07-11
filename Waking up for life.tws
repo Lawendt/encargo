@@ -3088,7 +3088,7 @@ g14
 I00
 sg15
 (lp943
-F1445.75
+F1444.5
 aF2065.0
 asg17
 (itiddlywiki
@@ -3235,7 +3235,7 @@ tp985
 Rp986
 sbsa(dp987
 g14
-I01
+I00
 sg15
 (lp988
 F1433.75
@@ -3496,7 +3496,7 @@ Tiddler
 p1064
 (dp1065
 g21
-V"Alo? \u000a\u000aNão está dormindo?\u000a\u000aTe liguei porque estava preocupada, a hora que você chegou nessa madrugada, não achei que ia acordar no horário. Vê se volta mais cedo hoje, daqui a pouco também vou pagar pizza pra ti ficar trabalhando aqui em casa. Tô brincando! Mas não se esforça tanto, existe vida fora do trabalho. \u000a\u000aBeijos, se cuida, te amo."\u000a\u000a\u000a[[Ok, hora de acordar.|Hora de acordar]]
+V"Alo? \u000a\u000aNão está dormindo?\u000a\u000aTe liguei porque estava preocupada, a hora que você chegou nessa madrugada, não achei que ia acordar no horário. Vê se volta mais cedo hoje, não é só seus chefes que podem comprar pizza pra ti, sabia? \u000a\u000aBeijos, se cuida, te amo."\u000a\u000a\u000a[[Ok, hora de acordar.|Hora de acordar]]
 p1066
 sg23
 Vatender
@@ -3506,9 +3506,9 @@ g26
 ((I2018
 I7
 I11
-I0
-I0
-I17
+I12
+I14
+I21
 I2
 I192
 I0

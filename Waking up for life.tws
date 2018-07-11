@@ -1444,7 +1444,7 @@ Tiddler
 p448
 (dp449
 g21
-V - É isto que é visualizado para a execução do projeto nesse mês.\u000a\u000aA frase mal saiou da boca e foi cortada pelo olhar confuso do cliente que respondia.\u000a\u000a - Não foi isso que eu pedi.\u000a\u000aA cabeça vira [[para Lopes]] com olhos de surpresa. O que pode ser dito? Era isso que estamos fazendo [[desde o começo]] do projeto e foi [[falado diversas vezes]]. Como assim? \u000a
+V - É isto que é visualizado para a execução do projeto nesse mês.\u000a\u000aA frase mal saiou da boca e foi cortada pelo olhar confuso do cliente que respondia.\u000a\u000a - Não foi isso que eu pedi.\u000a\u000aA cabeça vira para Lopes com olhos de surpresa. [[Será que ele sabe o que fazer?|para Lopes]] O que pode ser dito? Era isso que estamos fazendo [[desde o começo|desde o comeco]] do projeto. Isso foi falado diversas vezes, será que eles [[são só estupidos?|falado diversas vezes]].\u000a
 p450
 sg23
 Vreunião
@@ -1452,13 +1452,13 @@ p451
 sg25
 g26
 ((I2018
-I6
-I3
-I15
-I43
-I47
-I6
-I154
+I7
+I10
+I23
+I58
+I38
+I1
+I191
 I0
 tp452
 (dp453
@@ -1547,18 +1547,18 @@ g21
 V<<set $agressive = false>>\u000aUm sentimento de angústia assume o corpo. As palavras fluem com naturalidade - Desculpa, mas desde o começo estamos fazendo assim. Poderia falar o que deveriamos ter feito?\u000a\u000aO cliente olha com incrédulo.\u000a\u000a<<display resposta_cliente>>
 p480
 sg23
-Vdesde o começo
+Vdesde o comeco
 p481
 sg25
 g26
 ((I2018
-I6
-I3
-I15
-I29
-I30
-I6
-I154
+I7
+I10
+I23
+I57
+I16
+I1
+I191
 I0
 tp482
 (dp483
@@ -3485,7 +3485,7 @@ tp1060
 Rp1061
 sbsa(dp1062
 g14
-I00
+I01
 sg15
 (lp1063
 F899.5
@@ -3496,7 +3496,7 @@ Tiddler
 p1064
 (dp1065
 g21
-V"Alo? \u000a\u000aNão está dormindo?\u000a\u000aTe liguei porque estava preocupada, a hora que você chegou nessa madrugada, não achei que ia acordar no horário. Vê se volta mais cedo hoje, não é só seus chefes que podem comprar pizza pra ti, sabia? \u000a\u000aBeijos, se cuida, te amo."\u000a\u000a\u000a[[Ok, hora de acordar.|Hora de acordar]]
+V"Alo? \u000a\u000aNão está dormindo?\u000a\u000aTe liguei porque estava preocupada, a hora que você chegou nessa madrugada, não achei que ia acordar no horário. Vê se volta mais cedo hoje, daqui a pouco também vou pagar pizza pra ti ficar trabalhando aqui em casa. Tô brincando! Mas não se esforça tanto, existe vida fora do trabalho. \u000a\u000aBeijos, se cuida, te amo."\u000a\u000a\u000a[[Ok, hora de acordar.|Hora de acordar]]
 p1066
 sg23
 Vatender
@@ -3505,12 +3505,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I23
-I49
-I26
-I1
-I191
+I11
+I0
+I0
+I17
+I2
+I192
 I0
 tp1068
 (dp1069

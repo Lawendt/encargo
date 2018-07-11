@@ -2838,15 +2838,15 @@ g14
 I00
 sg15
 (lp868
-F1580.0
-aF1652.5
+F1613.75
+aF1671.25
 asg17
 (itiddlywiki
 Tiddler
 p869
 (dp870
 g21
-V[[lopes orienta]]
+V- Isso é maravilhoso! Me diga o que precisa, vou providenciar o máximo que conseguir. [[E vou colocar sua ideia nos padrões da indústria|lopes orienta]].
 p871
 sg23
 Vlopes aceita proposta
@@ -2855,12 +2855,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I20
-I57
-I56
-I1
-I191
+I11
+I11
+I7
+I41
+I2
+I192
 I0
 tp873
 (dp874
@@ -2888,7 +2888,7 @@ g14
 I00
 sg15
 (lp883
-F1235.0
+F1233.75
 aF2073.75
 asg17
 (itiddlywiki
@@ -2896,7 +2896,7 @@ Tiddler
 p884
 (dp885
 g21
-V[[final individual]]
+VAmanhã é o grande dia, espero só terminar meu dia de trabalho em pa...\u000aLopes chega perto e cumprimenta:\u000a- Parabéns pela iniciativa, aposto que vai arrazar [[amanhã|final individual]].
 p886
 sg23
 Vreuniao de entrega
@@ -2905,12 +2905,12 @@ sg25
 g26
 ((I2018
 I7
+I11
 I10
-I20
-I57
+I58
+I52
 I2
-I1
-I191
+I192
 I0
 tp888
 (dp889
@@ -2996,7 +2996,7 @@ Tiddler
 p914
 (dp915
 g21
-VTem o contato do cliente, então porque não propor uma reunião para mostrar as ideias?\u000a<<if $agressive >= 1>>[[lopes sabota]]<<else>>[[reuniao de entrega]]<<endif>>
+VPronto, reunião marcada. <<if $agressive >= 1>>[[Espero que de tudo certo.|lopes sabota]]<<else>>[[Espero que de tudo certo.|reuniao de entrega]]<<endif>>
 p916
 sg23
 Vfalar direto com cliente
@@ -3007,8 +3007,8 @@ g26
 I7
 I11
 I10
-I33
-I1
+I50
+I40
 I2
 I192
 I0
@@ -3038,15 +3038,15 @@ g14
 I00
 sg15
 (lp928
-F1443.5
-aF1822.5
+F1484.75
+aF1812.5
 asg17
 (itiddlywiki
 Tiddler
 p929
 (dp930
 g21
-V[[falar direto com cliente]]\u000a\u000aou\u000a\u000a[[segue projeto do lopes]]
+V- Não foi isso que mandei você fazer. [[Vá fazer o que eu mandei|segue projeto do lopes]], ou essa tua indisciplina só vai piorar tudo.\u000a\u000aSe bem que eu tenho o contato do cliente, [[não preciso de Lopes|falar direto com cliente]].
 p931
 sg23
 Vlopes rejeita proposta
@@ -3056,9 +3056,9 @@ g26
 ((I2018
 I7
 I11
-I1
-I32
-I28
+I11
+I5
+I41
 I2
 I192
 I0
@@ -3096,7 +3096,7 @@ Tiddler
 p944
 (dp945
 g21
-V[[final sabotado]]
+VAmanhã é o grande dia, espero só terminar meu dia de trabalho em pa...\u000a\u000aNo canto do olho, a imagem de Lopes saindo com Simone da sala de reuniões. \u000a\u000a- Quanta incompetência numa empresa só. Pode considerar esse projeto [[acabado|final sabotado]].
 p946
 sg23
 Vlopes sabota
@@ -3105,12 +3105,12 @@ sg25
 g26
 ((I2018
 I7
+I11
 I10
-I20
 I56
-I50
-I1
-I191
+I2
+I2
+I192
 I0
 tp948
 (dp949
@@ -3196,7 +3196,7 @@ Tiddler
 p974
 (dp975
 g21
-Vcliente gosta, projeto acaba bem profissional e invoador
+VSimone olhando com olhos <span class="shake-little">perfurantes</span>.\u000a- Adorei a forma como vocês retrataram o problema. Eu sabia que estava certa em investir em vocês!
 p976
 sg23
 Vfinal com lopes
@@ -3205,12 +3205,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I20
-I58
-I47
-I1
-I191
+I11
+I11
+I11
+I34
+I2
+I192
 I0
 tp978
 (dp979
@@ -3235,7 +3235,7 @@ tp985
 Rp986
 sbsa(dp987
 g14
-I00
+I01
 sg15
 (lp988
 F1433.75
@@ -3246,7 +3246,7 @@ Tiddler
 p989
 (dp990
 g21
-Vfica ruim para todos, projeto mal apresentado, com graves falhas e divergente do que o cliente quer, corte de relações
+VLopes com um olhar de raiva...\u000a\u000aFIM
 p991
 sg23
 Vfinal sabotado
@@ -3255,12 +3255,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I21
-I0
-I6
-I1
-I191
+I11
+I11
+I13
+I57
+I2
+I192
 I0
 tp993
 (dp994
@@ -3346,7 +3346,7 @@ Tiddler
 p1019
 (dp1020
 g21
-Vprojeto acaba inovador mas sem uma estruturação adequada,\u000acliente reclama mas gostaria que continuasse trabalhando para melhorar o projeto
+VSimone olhando com olhos <span class="shake-little">perfurantes</span>.\u000a- Adorei a forma como você retratou o problema. Pela primeira vez nesse projeto, estou feliz! Embora sua apresentação esteja um tanto informal, podemos trabalhar nisso juntos.
 p1021
 sg23
 Vfinal individual
@@ -3355,12 +3355,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I20
-I59
-I44
-I1
-I191
+I11
+I11
+I8
+I29
+I2
+I192
 I0
 tp1023
 (dp1024
@@ -3396,7 +3396,7 @@ Tiddler
 p1034
 (dp1035
 g21
-Vlopes fala com cliente e orienta mudanças para padronização\u000a[[final com lopes]]
+VEntra um email de Lopes indicando a [[reunião|final com lopes]] marcada e com as informações relevantes. Um clima de ansiedade e ânimo entre todos é visível.
 p1036
 sg23
 Vlopes orienta
@@ -3405,12 +3405,12 @@ sg25
 g26
 ((I2018
 I7
+I11
+I11
 I10
-I20
-I58
-I5
-I1
-I191
+I33
+I2
+I192
 I0
 tp1038
 (dp1039
@@ -3535,7 +3535,7 @@ tp1075
 Rp1076
 sbsa(dp1077
 g14
-I01
+I00
 sg15
 (lp1078
 F883.0

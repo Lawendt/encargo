@@ -1292,7 +1292,7 @@ Tiddler
 p402
 (dp403
 g21
-V.blurred {\u000a	filter: blur(20px);\u000a	transition-property: -webkit-filter;\u000a	transition-duration: .4s;\u000a}\u000a\u000a\u000a.blurred3 {\u000a	filter: blur(3px);\u000a	transition-property: -webkit-filter;\u000a	transition-duration: .4s;\u000a}
+V.blurred {\u000a	filter: blur(20px);\u000a	transition-property: -webkit-filter;\u000a	transition-duration: .4s;\u000a}\u000a\u000a.blurred10 {\u000a	filter: blur(10px);\u000a	transition-property: -webkit-filter;\u000a	transition-duration: .4s;\u000a}\u000a\u000a\u000a.blurred3 {\u000a	filter: blur(3px);\u000a	transition-property: -webkit-filter;\u000a	transition-duration: .4s;\u000a}
 p404
 sg23
 VBlurred
@@ -1300,13 +1300,13 @@ p405
 sg25
 g26
 ((I2018
-I5
-I27
-I0
-I55
-I12
-I6
-I147
+I7
+I10
+I23
+I24
+I40
+I1
+I191
 I0
 tp406
 (dp407
@@ -2238,8 +2238,8 @@ g14
 I00
 sg15
 (lp688
-F1417.0
-aF1166.0
+F1410.75
+aF1209.75
 asg17
 (itiddlywiki
 Tiddler
@@ -2288,8 +2288,8 @@ g14
 I00
 sg15
 (lp703
-F1414.0
-aF1040.0
+F1407.75
+aF1083.75
 asg17
 (itiddlywiki
 Tiddler
@@ -2338,8 +2338,8 @@ g14
 I00
 sg15
 (lp718
-F1410.5
-aF1440.75
+F1404.25
+aF1484.5
 asg17
 (itiddlywiki
 Tiddler
@@ -2388,8 +2388,8 @@ g14
 I00
 sg15
 (lp733
-F1414.0
-aF1298.0
+F1407.75
+aF1348.0
 asg17
 (itiddlywiki
 Tiddler
@@ -2435,7 +2435,7 @@ tp745
 Rp746
 sbsa(dp747
 g14
-I01
+I00
 sg15
 (lp748
 F1762.0
@@ -2538,8 +2538,8 @@ g14
 I00
 sg15
 (lp778
-F573.75
-aF1412.5
+F513.75
+aF1337.5
 asg17
 (itiddlywiki
 Tiddler
@@ -2588,15 +2588,15 @@ g14
 I00
 sg15
 (lp793
-F762.0
-aF1608.75
+F664.5
+aF1506.25
 asg17
 (itiddlywiki
 Tiddler
 p794
 (dp795
 g21
-V[[mini-game|mini-game email]]
+VUma torrencial quantidade de emails passa pelos olhos, um à um os emails são descartados sem informações úteis a respeito do projeto. A cabeça começa a girar em torno de tantas palavras. Nada construtivo surge dos emails lidos, as ideias discutidas já são foram tenadas e o cliente rejeitou grande parte disso. A visão vai ficando [[embaçada|mini-game email]] com tantas informações...
 p796
 sg23
 Vconfere email
@@ -2606,9 +2606,9 @@ g26
 ((I2018
 I7
 I10
-I20
-I46
-I5
+I23
+I19
+I51
 I1
 I191
 I0
@@ -2638,15 +2638,15 @@ g14
 I00
 sg15
 (lp808
-F625.75
-aF1763.75
+F569.5
+aF1653.75
 asg17
 (itiddlywiki
 Tiddler
 p809
 (dp810
 g21
-VNada últi veio das reuniões [[mas e os emails?|confere email]]
+VAs palavras tem um grande impácto. Algo bem enfatizado pelo meio da fala é super importante para a comunicação correta das ideias, ainda mais com projetos ou tarefas delegadas.\u000a\u000aAinda assim, revirando a mente para todas as reuniões, parece que nada encaixa. Muita coisa foi deixada em aberto logo de início, e houve falta de reuniões para alinhas o desenvolvimento do projeto... Bem, é claro que nada útil veio das reuniões [[mas e os emails?|confere email]] Certamente teve alguma coisa que passou despercebida.
 p811
 sg23
 Vconfere reunioes
@@ -2656,9 +2656,9 @@ g26
 ((I2018
 I7
 I10
-I20
+I22
+I19
 I46
-I38
 I1
 I191
 I0
@@ -2685,18 +2685,18 @@ tp820
 Rp821
 sbsa(dp822
 g14
-I00
+I01
 sg15
 (lp823
-F1031.25
-aF1713.75
+F1043.75
+aF1731.25
 asg17
 (itiddlywiki
 Tiddler
 p824
 (dp825
 g21
-VFelicidade!\u000a\u000a[[apresenta para lopes]]\u000a\u000a[[fala direto com cliente]]
+V"Bom dia,\u000a\u000aSabemos que os projetos já estão em andamento há um bom tempo, os resultados estão bons, mas ainda precisamos revisar alguns pontos. Como o intuito de melhorar a experiência do produto, optamos por arriscar um design mais clean. Percebemos que os concorrentes mantém as mesmas formas há anos, mas o nosso público alvo se torna cada vez mais ligado nas novas tendências da indústria. Queremos seguir essa onda de inovação e não deixar tão rebuscado quanto era antigamente.\u000a\u000aAtenciosamente,\u000a\u000aSimone\u000aCR Empreendedorismos"\u000a\u000aÉ isso! Como esse email passou despercebido?! Mas é claro, como não definimos as coisas com base nisso? Tudo faz sentido agora, só temos que refazer o que ficou inconsistente no projeto porque já temos todo o embasamento correto.\u000a\u000aSerá que [[Lopes se interessaria|apresenta para lopes]] nisso?\u000a\u000aTalvez eu devesse [[fala direto com cliente]]...
 p826
 sg23
 Vacha solucao
@@ -2706,9 +2706,9 @@ g26
 ((I2018
 I7
 I10
-I20
-I49
-I25
+I23
+I31
+I42
 I1
 I191
 I0
@@ -2788,15 +2788,15 @@ g14
 I00
 sg15
 (lp853
-F857.5
-aF1816.25
+F733.75
+aF1811.25
 asg17
 (itiddlywiki
 Tiddler
 p854
 (dp855
 g21
-V//Email com frases soltas, selecionar qual a melhor frase ou conjunto de palavras que forme a melhor frase [[acha solucao]]
+V<span class="blurred">"Bom dia,\u000a\u000aSabemos que os projetos já estão em andamento há um bom tempo, os resultados estão bons, mas ainda precisamos revisar alguns pontos. Como o intuito de melhorar a experiência do produto, optamos por arriscar um design mais clean. Percebemos que os concorrentes mantém as mesmas formas há anos, mas o nosso público alvo se torna cada vez mais ligado nas novas tendências da indústria. Queremos seguir essa onda de inovação e não deixar tão rebuscado quanto era antigamente.\u000a\u000aAtenciosamente,\u000a\u000aSimone\u000aCR Empreendedorismos"\u000a</span>\u000a\u000a[[Foco...|email foco]]
 p856
 sg23
 Vmini-game email
@@ -2806,9 +2806,9 @@ g26
 ((I2018
 I7
 I10
-I20
-I47
-I24
+I23
+I30
+I26
 I1
 I191
 I0
@@ -3433,10 +3433,60 @@ tp1043
 (dp1044
 tp1045
 Rp1046
+sbsa(dp1047
+g14
+I00
+sg15
+(lp1048
+F893.0
+aF1643.75
+asg17
+(itiddlywiki
+Tiddler
+p1049
+(dp1050
+g21
+V<span class="blurred10">"Bom dia,\u000a\u000aSabemos que os projetos já estão em andamento há um bom tempo, os resultados estão bons, mas ainda precisamos revisar alguns pontos. Como o intuito de melhorar a experiência do produto, optamos por arriscar um design mais clean. Percebemos que os concorrentes mantém as mesmas formas há anos, mas o nosso público alvo se torna cada vez mais ligado nas novas tendências da indústria. Queremos seguir essa onda de inovação e não deixar tão rebuscado quanto era antigamente.\u000a\u000aAtenciosamente,\u000a\u000aSimone\u000aCR Empreendedorismos"\u000a</span>\u000a\u000a[[Foco!|acha solucao]]
+p1051
+sg23
+Vemail foco
+p1052
+sg25
+g26
+((I2018
+I7
+I10
+I23
+I30
+I17
+I1
+I191
+I0
+tp1053
+(dp1054
+tp1055
+Rp1056
+sg31
+(lp1057
+sg33
+g26
+((I2018
+I7
+I10
+I23
+I20
+I24
+I1
+I191
+I0
+tp1058
+(dp1059
+tp1060
+Rp1061
 sbsasS'scale'
-p1047
+p1062
 F0.8
 sS'snapping'
-p1048
+p1063
 I00
 ss.

@@ -1292,7 +1292,7 @@ Tiddler
 p402
 (dp403
 g21
-V.blurred {\u000a	filter: blur(20px);\u000a	transition-property: -webkit-filter;\u000a	transition-duration: .4s;\u000a}\u000a\u000a\u000a.blurred3 {\u000a	filter: blur(3px);\u000a	transition-property: -webkit-filter;\u000a	transition-duration: .4s;\u000a}
+V.blurred {\u000a	filter: blur(20px);\u000a	transition-property: -webkit-filter;\u000a	transition-duration: .4s;\u000a}\u000a\u000a.blurred10 {\u000a	filter: blur(10px);\u000a	transition-property: -webkit-filter;\u000a	transition-duration: .4s;\u000a}\u000a\u000a.blurred3 {\u000a	filter: blur(3px);\u000a	transition-property: -webkit-filter;\u000a	transition-duration: .4s;\u000a}
 p404
 sg23
 VBlurred
@@ -1300,13 +1300,13 @@ p405
 sg25
 g26
 ((I2018
-I5
-I27
-I0
-I55
-I12
-I6
-I147
+I7
+I11
+I10
+I29
+I52
+I2
+I192
 I0
 tp406
 (dp407
@@ -1894,7 +1894,7 @@ Tiddler
 p583
 (dp584
 g21
-V<<set $falarComLopes = false>>\u000a\u000a"De forma diferente...", o novo tema da semana, e então do mês. Não deixando de se tornar um humor para tudo aquilo que não estivesse de acordo: "Talvez... Fazendo de forma diferente? Hahaha!".\u000a\u000aA verdade é que a expressão era tão abstrata que servia para quase todas as ocasiões. \u000a\u000aE a triste verdade era que Lopes não enviava um email\u000anem marcava uma reunião construtiva. Talvez uma [[visita a sala dele|Falar com Lopes]]? Ou talvez fazer de [[forma diferente|Por onde comecar]] mesmo?\u000a\u000a
+V<<set $falarComLopes = false>>\u000a<<set $preparaLopes = 0>>\u000a\u000a"De forma diferente...", o novo tema da semana, e então do mês. Não deixando de se tornar um humor para tudo aquilo que não estivesse de acordo: "Talvez... Fazendo de forma diferente? Hahaha!".\u000a\u000aA verdade é que a expressão era tão abstrata que servia para quase todas as ocasiões. \u000a\u000aE a triste verdade era que Lopes não enviava um email\u000anem marcava uma reunião construtiva. Talvez uma [[visita a sala dele|Falar com Lopes]]? Ou talvez fazer de [[forma diferente|Por onde comecar]] mesmo?\u000a\u000a
 p585
 sg23
 Vchapter 3
@@ -1904,9 +1904,9 @@ g26
 ((I2018
 I7
 I11
+I10
+I38
 I0
-I47
-I28
 I2
 I192
 I0
@@ -2085,7 +2085,7 @@ tp640
 Rp641
 sbsa(dp642
 g14
-I01
+I00
 sg15
 (lp643
 F701.75
@@ -2246,7 +2246,7 @@ Tiddler
 p689
 (dp690
 g21
-V<<if $agressive == 1>>\u000aDe novo com isso...\u000a<<endif>>\u000aOlha, se tu não está gostando do jeito que tá as coisas, então resolva. Não adianta fica falando e falando e só ficar de mimimi.\u000a\u000a<<if $agressive == 0>>\u000aEntão a não ser que você vá parar de drama e tenha [[algo melhor|proposta para lopes]] para falar, por favor, [[saia daqui|sem lopes]].\u000a<<else>>\u000aEntão por favor, [[vaza daqui|sem lopes]] porque eu tenho mais coisa para fazer do que ouvir draminha.\u000a<<endif>>\u000a\u000a<<set $agressive++>>
+V<<if $agressive >= 1>>\u000aDe novo com isso...\u000a<<endif>>\u000aOlha, se tu não está gostando do jeito que tá as coisas, então resolva. Não adianta fica falando e falando e só ficar de mimimi.\u000a\u000a<<if $agressive >= 0>>\u000aEntão a não ser que você vá parar de drama e tenha [[algo melhor|proposta para lopes]] para falar, por favor, [[saia daqui|sem lopes]].\u000a<<else>>\u000aEntão por favor, [[vaza daqui|sem lopes]] porque eu tenho mais coisa para fazer do que ouvir draminha.\u000a<<endif>>\u000a\u000a<<set $agressive++>>
 p691
 sg23
 Vnao funciona
@@ -2256,9 +2256,9 @@ g26
 ((I2018
 I7
 I11
-I0
-I17
-I59
+I10
+I28
+I8
 I2
 I192
 I0
@@ -2296,7 +2296,7 @@ Tiddler
 p704
 (dp705
 g21
-V- Acho que devemos revisar atentamente todo o trabalho feito até agora. Talvez devessemos ser mais ousados na abordage e conseguir mais informações relevantes. Apresentar uma série de ideias seria legal para a próxima reunião também.\u000a\u000a- Certo. A gente precisa focar no que é importante, posso falar com o time e organizar tudo para que a gente possa definir bem os papeis de cada um. Eu proponho que a gente [[siga as definições atuais|lopes propoe projeto]], mas adicionamos alguns recursos novos. Vai ser mais trabalho, mas acho que vão gostar. Não concorda?\u000a\u000a\u000a[[- Acho que devemos optar por alguma abordagem mais ousada... Vou pesquisar algumas coisas que estava pensando e posso apresentar isso em outro momento.|sem lopes]]\u000a\u000a[[- Claro que não. O cliente foi muito claro em todas as vezes que falou, do jeito que está agora não está certo. Não podemos continuar com as mesmas propostas que antes, é um tiro no pé.|recusa proposta lopes]]
+V- Acho que devemos revisar atentamente todo o trabalho feito até agora. Talvez devessemos ser mais ousados na abordage e conseguir mais informações relevantes. Apresentar uma série de ideias seria legal para a próxima reunião também.\u000a\u000a- Certo. A gente precisa focar no que é importante, posso falar com o time e organizar tudo para que a gente possa definir bem os papeis de cada um. Eu proponho que a gente [[siga as definições atuais|lopes propoe projeto]], mas adicionamos alguns recursos novos. Vai ser mais trabalho, mas acho que vão gostar. Não concorda?\u000a\u000a\u000a[[- Acho que devemos optar por alguma abordagem mais ousada... Vou pesquisar algumas coisas que estava pensando e posso apresentar isso em outro momento.|sem lopes][$preparaLopes = 1]]\u000a\u000a[[- Claro que não. O cliente foi muito claro em todas as vezes que falou, do jeito que está agora não está certo. Não podemos continuar com as mesmas propostas que antes, é um tiro no pé.|recusa proposta lopes]]
 p706
 sg23
 Vproposta para lopes
@@ -2306,9 +2306,9 @@ g26
 ((I2018
 I7
 I11
-I1
-I39
-I23
+I10
+I37
+I31
 I2
 I192
 I0
@@ -2346,7 +2346,7 @@ Tiddler
 p719
 (dp720
 g21
-V<<if $agressive == 1>>\u000aAcho que tu deve parar de reclamar do cliente e ver se o problema não é tu mesmo.\u000a<<endif>>\u000a\u000aOlha só, ficar falando picuinha do cliente não vai levar a lugar nenhum. Ou seja, tu só tá gastando meu tempo, então [[vá fazer algo útil|sem lopes]] por favor. \u000a\u000a<<set $agressive++>>
+V<<if $agressive >= 1>>\u000aAcho que tu deve parar de reclamar do cliente e ver se o problema não é tu mesmo.\u000a<<endif>>\u000a\u000aOlha só, ficar falando picuinha do cliente não vai levar a lugar nenhum. Ou seja, tu só tá gastando meu tempo, então [[vá fazer algo útil|sem lopes]] por favor. \u000a\u000a<<set $agressive++>>
 p721
 sg23
 Vreclama do cliente
@@ -2356,9 +2356,9 @@ g26
 ((I2018
 I7
 I11
-I0
-I47
-I4
+I10
+I27
+I43
 I2
 I192
 I0
@@ -2496,7 +2496,7 @@ Tiddler
 p764
 (dp765
 g21
-VLopes não apoia as ideias ou o jogador não concorda com ele\u000a\u000a//Fazer uma reflexão sobre o estado atual com Lopes, talvez dando dicas do que pode ser feito como: Lopes, apesar de não concordar comigo, parece inclinado a ouvir mais o que tenho para mostrar, etc.\u000a\u000acomeçando [[Por onde comecar]]
+VClaramente vou ter que me virar sem Lopes. \u000a\u000a<<if $preparaLopes == 1>>\u000aEle, apesar de não concordar, parece inclinado a ouvir outras propostas.\u000a<<endif>>\u000a\u000aAgora só resta saber [[por onde começar...|Por onde comecar]]
 p766
 sg23
 Vsem lopes
@@ -2505,12 +2505,12 @@ sg25
 g26
 ((I2018
 I7
+I11
 I10
-I20
-I48
-I57
-I1
-I191
+I43
+I8
+I2
+I192
 I0
 tp768
 (dp769
@@ -2646,7 +2646,7 @@ Tiddler
 p809
 (dp810
 g21
-VAs palavras tem um grande impácto. Algo bem enfatizado pelo meio da fala é super importante para a comunicação correta das ideias, ainda mais com projetos ou tarefas delegadas.\u000a\u000aAinda assim, revirando a mente para todas as reuniões, parece que nada encaixa. Muita coisa foi deixada em aberto logo de início, e houve falta de reuniões para alinhas o desenvolvimento do projeto... Bem, é claro que nada útil veio das reuniões [[mas e os emails?|confere email]] Certamente teve alguma coisa que passou despercebida.
+VAs palavras tem um grande impacto. Algo bem enfatizado pelo meio da fala é super importante para a comunicação correta das ideias, ainda mais com projetos ou tarefas delegadas.\u000a\u000aAinda assim, revirando a mente para todas as reuniões, parece que nada encaixa. Muita coisa foi deixada em aberto logo de início, e houve falta de reuniões para alinhar o desenvolvimento do projeto... Bem, é claro que nada útil veio das reuniões [[mas e os emails?|confere email]] Certamente teve alguma coisa que passou despercebida.
 p811
 sg23
 Vconfere reunioes
@@ -2656,9 +2656,9 @@ g26
 ((I2018
 I7
 I11
-I1
-I29
-I50
+I10
+I43
+I42
 I2
 I192
 I0
@@ -2746,7 +2746,7 @@ Tiddler
 p839
 (dp840
 g21
-V[[lopes aceita proposta]]\u000a\u000aou\u000a\u000a[[lopes rejeita proposta]]
+V<<if $preparaLopes == 1>>\u000a[[lopes aceita proposta]]\u000a<<else>>\u000a[[lopes rejeita proposta]]\u000a<<endif>>
 p841
 sg23
 Vapresenta para lopes
@@ -2755,12 +2755,12 @@ sg25
 g26
 ((I2018
 I7
+I11
 I10
-I20
-I55
-I33
-I1
-I191
+I38
+I46
+I2
+I192
 I0
 tp843
 (dp844
@@ -2788,7 +2788,7 @@ g14
 I00
 sg15
 (lp853
-F688.75
+F681.25
 aF1772.5
 asg17
 (itiddlywiki
@@ -2796,7 +2796,7 @@ Tiddler
 p854
 (dp855
 g21
-V<span class="blurred">"Bom dia,\u000a\u000aSabemos que os projetos já estão em andamento há um bom tempo, os resultados estão bons, mas ainda precisamos revisar alguns pontos. Como o intuito de melhorar a experiência do produto, optamos por arriscar um design mais clean. Percebemos que os concorrentes mantém as mesmas formas há anos, mas o nosso público alvo se torna cada vez mais ligado nas novas tendências da indústria. Queremos seguir essa onda de inovação e não deixar tão rebuscado quanto era antigamente.\u000a\u000aAtenciosamente,\u000a\u000aSimone\u000aCR Empreendedorismos"\u000a</span>\u000a\u000a[[Foco...|email foco]]
+V[[\u000a<span class="blurred">"Bom dia,\u000a\u000aSabemos que os projetos já estão em andamento há um bom tempo, os resultados estão bons, mas ainda precisamos revisar alguns pontos. Como o intuito de melhorar a experiência do produto, optamos por arriscar um design mais clean. Percebemos que os concorrentes mantém as mesmas formas há anos, mas o nosso público alvo se torna cada vez mais ligado nas novas tendências da indústria. Queremos seguir essa onda de inovação e não deixar tão rebuscado quanto era antigamente.\u000a\u000aAtenciosamente,\u000a\u000aSimone\u000aCR Empreendedorismos"\u000a</span>\u000a\u000a|email foco]]
 p856
 sg23
 Vmini-game email
@@ -2806,9 +2806,9 @@ g26
 ((I2018
 I7
 I11
-I1
-I30
-I14
+I10
+I46
+I18
 I2
 I192
 I0
@@ -2996,7 +2996,7 @@ Tiddler
 p914
 (dp915
 g21
-VTem o contato do cliente, então porque não propor uma reunião para mostrar as ideias? [[reuniao de entrega]] ou [[lopes sabota]]
+VTem o contato do cliente, então porque não propor uma reunião para mostrar as ideias?\u000a<<if $agressive >= 1>>[[lopes sabota]]<<else>>[[reuniao de entrega]]<<endif>>
 p916
 sg23
 Vfalar direto com cliente
@@ -3006,8 +3006,8 @@ g26
 ((I2018
 I7
 I11
-I1
-I31
+I10
+I33
 I1
 I2
 I192
@@ -3535,7 +3535,7 @@ tp1075
 Rp1076
 sbsa(dp1077
 g14
-I00
+I01
 sg15
 (lp1078
 F883.0
@@ -3546,7 +3546,7 @@ Tiddler
 p1079
 (dp1080
 g21
-V<span class="blurred10">"Bom dia,\u000a\u000aSabemos que os projetos já estão em andamento há um bom tempo, os resultados estão bons, mas ainda precisamos revisar alguns pontos. Como o intuito de melhorar a experiência do produto, optamos por arriscar um design mais clean. Percebemos que os concorrentes mantém as mesmas formas há anos, mas o nosso público alvo se torna cada vez mais ligado nas novas tendências da indústria. Queremos seguir essa onda de inovação e não deixar tão rebuscado quanto era antigamente.\u000a\u000aAtenciosamente,\u000a\u000aSimone\u000aCR Empreendedorismos"\u000a</span>\u000a\u000a[[Foco!|acha solucao]]
+V[[<span class="blurred10">"Bom dia,\u000a\u000aSabemos que os projetos já estão em andamento há um bom tempo, os resultados estão bons, mas ainda precisamos revisar alguns pontos. Como o intuito de melhorar a experiência do produto, optamos por arriscar um design mais clean. Percebemos que os concorrentes mantém as mesmas formas há anos, mas o nosso público alvo se torna cada vez mais ligado nas novas tendências da indústria. Queremos seguir essa onda de inovação e não deixar tão rebuscado quanto era antigamente.\u000a\u000aAtenciosamente,\u000a\u000aSimone\u000aCR Empreendedorismos"\u000a</span>\u000a\u000a|acha solucao]]
 p1081
 sg23
 Vemail foco
@@ -3556,9 +3556,9 @@ g26
 ((I2018
 I7
 I11
-I1
-I30
-I36
+I10
+I46
+I47
 I2
 I192
 I0
@@ -3588,15 +3588,15 @@ g14
 I00
 sg15
 (lp1093
-F1222.5
-aF1172.5
+F1212.5
+aF1206.25
 asg17
 (itiddlywiki
 Tiddler
 p1094
 (dp1095
 g21
-V- Como é que é? Primeiro vem pedir minha ajuda e agora desdenha da minha opinião dessa maneira? Aqui quem decide as coisas sou eu. Se teu ponto de vista diverge, pode se direcionar a [[porta|sem lopes]], pois faremos [[do meu jeito|lopes propoe projeto]].
+V- Como é que é? Primeiro vem pedir minha ajuda e agora desdenha da minha opinião dessa maneira? Aqui quem decide as coisas sou eu. Se teu ponto de vista diverge, pode se direcionar a [[porta|sem lopes]], pois faremos [[do meu jeito|lopes propoe projeto]].\u000a\u000a<<set $agressive++>>
 p1096
 sg23
 Vrecusa proposta lopes
@@ -3606,9 +3606,9 @@ g26
 ((I2018
 I7
 I11
-I1
-I38
-I21
+I10
+I27
+I26
 I2
 I192
 I0

@@ -1894,7 +1894,7 @@ Tiddler
 p583
 (dp584
 g21
-V"De forma diferente...", o novo tema da semana, e então do mês. Não deixando de se tornar um humor para tudo aquilo que não estivesse de acordo: "Talvez... Fazendo de forma diferente? Hahaha!".\u000a\u000aA verdade é que a expressão era tão abstrata que servia para quase todas as ocasiões. \u000a\u000aE a triste verdade era que Lopes não enviava um email\u000anem marcava uma reunião construtiva. Talvez uma [[visita a sala dele|Falar com Lopes]]? Ou talvez fazer de [[forma diferente|Por onde comecar]] mesmo?\u000a\u000a
+V<<set $falarComLopes = false>>\u000a\u000a"De forma diferente...", o novo tema da semana, e então do mês. Não deixando de se tornar um humor para tudo aquilo que não estivesse de acordo: "Talvez... Fazendo de forma diferente? Hahaha!".\u000a\u000aA verdade é que a expressão era tão abstrata que servia para quase todas as ocasiões. \u000a\u000aE a triste verdade era que Lopes não enviava um email\u000anem marcava uma reunião construtiva. Talvez uma [[visita a sala dele|Falar com Lopes]]? Ou talvez fazer de [[forma diferente|Por onde comecar]] mesmo?\u000a\u000a
 p585
 sg23
 Vchapter 3
@@ -1903,12 +1903,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I20
-I39
-I17
-I1
-I191
+I11
+I0
+I47
+I28
+I2
+I192
 I0
 tp587
 (dp588
@@ -2096,7 +2096,7 @@ Tiddler
 p644
 (dp645
 g21
-VBatendo na porta de Lopes, que pede para entrar.\u000a- Tem um minuto Lopes?\u000a- Só um minuto, diga...\u000a[[- Estou pensando a respeito do andamento do projeto, não tá certo assim...|andamento do projeto]]\u000a[[- As reuniões, acho que não estão seguindo um fluxo legal.|reunioes erradas]]
+VBatendo na porta de Lopes, que pede para entrar.\u000a- Tem um minuto Lopes?\u000a- Só um minuto, diga...\u000a[[- Estou pensando a respeito do andamento do projeto, não tá certo assim...|andamento do projeto]]\u000a[[- As reuniões, acho que não estão seguindo um fluxo legal.|reunioes erradas]]\u000a\u000a<<set $falarComLopes = true>>
 p646
 sg23
 VFalar com Lopes
@@ -2105,12 +2105,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I17
-I18
-I23
-I1
-I191
+I11
+I0
+I46
+I47
+I2
+I192
 I0
 tp648
 (dp649
@@ -2196,7 +2196,7 @@ Tiddler
 p674
 (dp675
 g21
-V- Qual o problema com as reuniões?\u000a[[- Não temos comunicação, o cliente não fala o que quer e não insistimos com ele o suficiente. Ele nunca fica até o final da reunião e nem temos oportunidade de falar nossas ideias.|reclama do cliente]]\u000a[[- Estamos nos comunicando pouco... Acho que teu ponto de vista pode agregar bastante no desenvolvimento do projeto, ando elaborando uns planos que talvez se adequem à visão do cliente. Mas nada muito concreto ainda.|exige comunicacao]]
+V- Qual o problema com as reuniões?\u000a\u000a[[- Não temos comunicação, o cliente não fala o que quer e não insistimos com ele o suficiente. Ele nunca fica até o final da reunião e nem temos oportunidade de falar nossas ideias.|reclama do cliente]]\u000a\u000a[[- Estamos nos comunicando pouco... Acho que teu ponto de vista pode agregar bastante no desenvolvimento do projeto, ando elaborando uns planos que talvez se adequem à visão do cliente. Mas nada muito concreto ainda.|exige comunicacao]]
 p676
 sg23
 Vreunioes erradas
@@ -2205,12 +2205,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I17
-I27
-I41
-I1
-I191
+I11
+I0
+I50
+I48
+I2
+I192
 I0
 tp678
 (dp679
@@ -2335,7 +2335,7 @@ tp715
 Rp716
 sbsa(dp717
 g14
-I00
+I01
 sg15
 (lp718
 F1410.5
@@ -2346,7 +2346,7 @@ Tiddler
 p719
 (dp720
 g21
-V<<if $agressive == 1>>\u000aAcho que tu deve parar de reclamar do cliente e ver se o problema não é tu mesmo.\u000a<<endif>>\u000a\u000aOlha só, ficar falando picuinha do cliente não vai levar a lugar nenhum. Ou seja, tu só tá gastando meu tempo, então [[vá fazer algo útil|sem lopes]] por favor. \u000a
+V<<if $agressive == 1>>\u000aAcho que tu deve parar de reclamar do cliente e ver se o problema não é tu mesmo.\u000a<<endif>>\u000a\u000aOlha só, ficar falando picuinha do cliente não vai levar a lugar nenhum. Ou seja, tu só tá gastando meu tempo, então [[vá fazer algo útil|sem lopes]] por favor. \u000a\u000a<<set $agressive++>>
 p721
 sg23
 Vreclama do cliente
@@ -2357,8 +2357,8 @@ g26
 I7
 I11
 I0
-I21
-I45
+I47
+I4
 I2
 I192
 I0
@@ -2538,7 +2538,7 @@ g14
 I00
 sg15
 (lp778
-F573.75
+F575.0
 aF1412.5
 asg17
 (itiddlywiki
@@ -2546,7 +2546,7 @@ Tiddler
 p779
 (dp780
 g21
-VCerto, preciso analisar os fatos. De todas as vezes, que tivemos comunicação, quais as vezes que obtive mais informação?\u000a[[Conferir email?|confere email]][[O que foi falado nas reuniões?|confere reunioes]][[Talvez eu devesse falar com Lopes...|Falar com Lopes]]
+VCerto, analisar os fatos. De todas as vezes, que tivemos comunicação, quais as vezes que foi obtido mais informação?\u000a\u000a[[Conferir email?|confere email]]\u000a\u000a[[O que foi falado nas reuniões?|confere reunioes]]\u000a\u000a<<if $falarComLopes == false>>\u000a[[Talvez eu devesse falar com Lopes...|Falar com Lopes]]\u000a<<endif>>
 p781
 sg23
 VPor onde comecar
@@ -2555,12 +2555,12 @@ sg25
 g26
 ((I2018
 I7
-I10
-I20
-I38
+I11
+I0
 I47
-I1
-I191
+I49
+I2
+I192
 I0
 tp783
 (dp784
@@ -2588,7 +2588,7 @@ g14
 I00
 sg15
 (lp793
-F762.0
+F760.75
 aF1608.75
 asg17
 (itiddlywiki
